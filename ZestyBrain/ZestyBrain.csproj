@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{906DAA4D-7782-466C-ACFC-5BF2684AEE54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZestyBrain</RootNamespace>
+    <AssemblyName>ZestyBrain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Owner User\Desktop\II PERIODO 2017\CIENTIFICA II\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>173B942C070524D130A57303BF53EE958626F149</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ZestyBrain_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmLeccionTiposdeReproducion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeccionTiposdeReproducion.Designer.cs">
+      <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmResultado.Designer.cs">
+      <DependentUpon>FrmResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaPrincipal\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaPrincipal\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmAnimales.Designer.cs">
+      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmClasificaciónAlimentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmClasificaciónAlimentos.Designer.cs">
+      <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmCuerpoHumano2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmCuerpoHumano2.Designer.cs">
+      <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temas\FrmModAvanTemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temas\FrmModAvanTemas.Designer.cs">
+      <DependentUpon>FrmModAvanTemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temas\FrmModFacilTemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temas\FrmModFacilTemas.Designer.cs">
+      <DependentUpon>FrmModFacilTemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FrmModulosdeJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FrmModulosdeJuego.Designer.cs">
+      <DependentUpon>FrmModulosdeJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones\FrmOpciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opciones\FrmOpciones.Designer.cs">
+      <DependentUpon>FrmOpciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PruebasModoFacil\FrmPruebaClasificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PruebasModoFacil\FrmPruebaClasificacion.Designer.cs">
+      <DependentUpon>FrmPruebaClasificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebasModoFacil\PruebaAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PruebasModoFacil\PruebaAnimales.Designer.cs">
+      <DependentUpon>PruebaAnimales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PruebasModoFacil\PruebaCuerpoHumano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PruebasModoFacil\PruebaCuerpoHumano.Designer.cs">
+      <DependentUpon>PruebaCuerpoHumano.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmLeccionTiposdeReproducion.resx">
+      <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmResultado.resx">
+      <DependentUpon>FrmResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaPrincipal\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecionesModoFacil\FrmAnimales.resx">
+      <DependentUpon>FrmAnimales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecionesModoFacil\FrmClasificaciónAlimentos.resx">
+      <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LecionesModoFacil\FrmCuerpoHumano2.resx">
+      <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temas\FrmModAvanTemas.resx">
+      <DependentUpon>FrmModAvanTemas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temas\FrmModFacilTemas.resx">
+      <DependentUpon>FrmModFacilTemas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FrmModulosdeJuego.resx">
+      <DependentUpon>FrmModulosdeJuego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones\FrmOpciones.resx">
+      <DependentUpon>FrmOpciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PruebasModoFacil\FrmPruebaClasificacion.resx">
+      <DependentUpon>FrmPruebaClasificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PruebasModoFacil\PruebaAnimales.resx">
+      <DependentUpon>PruebaAnimales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PruebasModoFacil\PruebaCuerpoHumano.resx">
+      <DependentUpon>PruebaCuerpoHumano.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ZestyBrain_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-play.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modulo2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modojuegofacil.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listomodulo2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modojuegofacil1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19357689_1344562952292903_905039134_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bp.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engranaje-mds.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engranaje-md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-31222_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoopc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19357689_1344562952292903_905039134_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoparainterfazniños.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\convite-selva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\losAnimales.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temas-a-estudiar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuerpohumano.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificaciondelosalimentos.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\losAnimales1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuerpohumano1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificaciondelosalimentos1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoparaintefazavanzadoss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoniños.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonPrueba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LosAnimalesd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificaciondelosalimentosd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuerpohumanod.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-ir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton enviar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound-button-icon-53225.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
