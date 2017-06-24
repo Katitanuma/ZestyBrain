@@ -61,8 +61,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>ZestyBrain.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -113,6 +112,12 @@
     </Compile>
     <Compile Include="LecionesModoFacil\FrmCuerpoHumano2.Designer.cs">
       <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaPrincipal\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaPrincipal\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Temas\FrmModAvanTemas.cs">
       <SubType>Form</SubType>
@@ -175,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LecionesModoFacil\FrmCuerpoHumano2.resx">
       <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaPrincipal\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Temas\FrmModAvanTemas.resx">
       <DependentUpon>FrmModAvanTemas.cs</DependentUpon>
@@ -359,6 +367,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sound-button-icon-53225.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharejs_com_1004.eps.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chip-Dale-Bailando-86137.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gifs Animados Mariposas 36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gifs Animados Mariposas 361.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo-de-naturaleza-de-un-paisaje-cubierto-de-hierba_1048-1305.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gras-mit-blumen-hintergrund_1053-205.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366_768_20091205010039268490.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaf-735878_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67b62d4c00336a5b0bf8b73e420f992d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullconfiguration_settings_4501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear-47203_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingscircularbuttonwithtwowheels_80327.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANIMALES %28RANAS%29 %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\direction-25871_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANIMALES %28PERROS%29 %28280%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\htzonr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\techo_yawning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deer4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonJugar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
