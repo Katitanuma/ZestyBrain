@@ -49,7 +49,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("leaf1", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Green;
-            this.label1.Location = new System.Drawing.Point(211, 15);
+            this.label1.Location = new System.Drawing.Point(242, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(445, 68);
             this.label1.TabIndex = 0;
@@ -60,7 +60,7 @@
             this.pnlJugar.BackColor = System.Drawing.Color.Transparent;
             this.pnlJugar.BackgroundImage = global::ZestyBrain.Properties.Resources.BotonJugar;
             this.pnlJugar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlJugar.Location = new System.Drawing.Point(299, 306);
+            this.pnlJugar.Location = new System.Drawing.Point(328, 313);
             this.pnlJugar.Name = "pnlJugar";
             this.pnlJugar.Size = new System.Drawing.Size(317, 129);
             this.pnlJugar.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::ZestyBrain.Properties.Resources.ANIMALES__RANAS___30_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(75, 382);
+            this.pictureBox1.Location = new System.Drawing.Point(111, 390);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(195, 189);
             this.pictureBox1.TabIndex = 3;
@@ -85,7 +85,7 @@
             this.panel1.BackgroundImage = global::ZestyBrain.Properties.Resources.direction_25871_640;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.pnlConf);
-            this.panel1.Location = new System.Drawing.Point(684, 473);
+            this.panel1.Location = new System.Drawing.Point(752, 479);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(211, 115);
             this.panel1.TabIndex = 4;
@@ -105,7 +105,7 @@
             // 
             this.pctSalirB.BackColor = System.Drawing.Color.Transparent;
             this.pctSalirB.Image = global::ZestyBrain.Properties.Resources.button_31222_960_720;
-            this.pctSalirB.Location = new System.Drawing.Point(835, 14);
+            this.pctSalirB.Location = new System.Drawing.Point(894, 15);
             this.pctSalirB.Name = "pctSalirB";
             this.pctSalirB.Size = new System.Drawing.Size(43, 43);
             this.pctSalirB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +120,7 @@
             this.pctAnimal.BackColor = System.Drawing.Color.Transparent;
             this.pctAnimal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pctAnimal.Image = global::ZestyBrain.Properties.Resources.tigre;
-            this.pctAnimal.Location = new System.Drawing.Point(152, 145);
+            this.pctAnimal.Location = new System.Drawing.Point(178, 155);
             this.pctAnimal.Name = "pctAnimal";
             this.pctAnimal.Size = new System.Drawing.Size(188, 111);
             this.pctAnimal.TabIndex = 8;
@@ -131,7 +131,7 @@
             this.pctVenado.BackColor = System.Drawing.Color.Transparent;
             this.pctVenado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pctVenado.Image = global::ZestyBrain.Properties.Resources.deer4;
-            this.pctVenado.Location = new System.Drawing.Point(698, 104);
+            this.pctVenado.Location = new System.Drawing.Point(747, 119);
             this.pctVenado.Name = "pctVenado";
             this.pctVenado.Size = new System.Drawing.Size(190, 199);
             this.pctVenado.TabIndex = 9;
@@ -144,7 +144,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ZestyBrain.Properties.Resources._67b62d4c00336a5b0bf8b73e420f992d;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(897, 586);
+            this.ClientSize = new System.Drawing.Size(963, 591);
             this.ControlBox = false;
             this.Controls.Add(this.pctVenado);
             this.Controls.Add(this.pctAnimal);

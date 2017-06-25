@@ -437,6 +437,84 @@
   <ItemGroup>
     <None Include="Resources\BotonJugar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33082fc8ae72ebdb586960e0da8874c6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mono-colgado-arbol-9703.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2yyqtsz.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mono-comiendo-platano-9707.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\87123254d87f2a1d2ebaa771e828d3d5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood-651391_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\techo_yawning1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iguana.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175554.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigre 2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog23.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTEL %28120%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fond madera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anime-mishki-804.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon_gorilla.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1505726be89nhu7k9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grenouille076sautejoie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Previous-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-25866_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-25864_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grenouille076sautejoie1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-148033_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton_inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

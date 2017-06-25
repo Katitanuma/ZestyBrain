@@ -29,24 +29,22 @@ C:\Users\Owner User\Desktop\EXAMENCIENTIFICAIIALEXISORDOÑEZ\ZestyBrain\ZestyBra
 C:\Users\Owner User\Desktop\EXAMENCIENTIFICAIIALEXISORDOÑEZ\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmResultado.resources
 C:\Users\Owner User\Desktop\EXAMENCIENTIFICAIIALEXISORDOÑEZ\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmLeccionTiposdeReproducion.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.config
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\Interop.WMPLib.dll
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.ResolveComReference.cache
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.manifest
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.application
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.pdb
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\Interop.WMPLib.dll
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csprojResolveAssemblyReference.cache
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\Interop.WMPLib.dll
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.ResolveComReference.cache
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmLeccionTiposdeReproducion.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmResultado.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPortada.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAnimales.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificaciónAlimentos.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmCuerpoHumano2.resources
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PantallaPrincipal.FrmInicio.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModAvanTemas.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModFacilTemas.resources
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModulosdeJuego.resources
@@ -58,4 +56,5 @@ C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PruebaCuerpoHu
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.GenerateResource.Cache
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
-C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PantallaPrincipal.FrmInicio.resources
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
