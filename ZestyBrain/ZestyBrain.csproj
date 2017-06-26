@@ -536,6 +536,24 @@
   <ItemGroup>
     <None Include="Resources\home-150499_960_720.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manzana-Adorable-56425.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModoAvanzado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64334382-papel-transparente-en-blanco-del-marco-de-fotos-Polaroid-dise-o-del-vector-Foto-de-archivo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polarodiresultado1ld9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotografia-instantanea_1101-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foto.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

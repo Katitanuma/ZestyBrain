@@ -163,6 +163,17 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _64334382_papel_transparente_en_blanco_del_marco_de_fotos_Polaroid_dise_o_del_vector_Foto_de_archivo {
+            get {
+                object obj = ResourceManager.GetObject("64334382-papel-transparente-en-blanco-del-marco-de-fotos-Polaroid-dise-o-del-vect" +
+                        "or-Foto-de-archivo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _67b62d4c00336a5b0bf8b73e420f992d {
             get {
                 object obj = ResourceManager.GetObject("67b62d4c00336a5b0bf8b73e420f992d", resourceCulture);
@@ -623,6 +634,26 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Foto {
+            get {
+                object obj = ResourceManager.GetObject("Foto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fotografia_instantanea_1101_240 {
+            get {
+                object obj = ResourceManager.GetObject("fotografia-instantanea_1101-240", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fullconfiguration_settings_4501 {
             get {
                 object obj = ResourceManager.GetObject("fullconfiguration_settings_4501", resourceCulture);
@@ -813,6 +844,26 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Manzana_Adorable_56425 {
+            get {
+                object obj = ResourceManager.GetObject("Manzana-Adorable-56425", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ModoAvanzado {
+            get {
+                object obj = ResourceManager.GetObject("ModoAvanzado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap modojuegofacil {
             get {
                 object obj = ResourceManager.GetObject("modojuegofacil", resourceCulture);
@@ -876,6 +927,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap play {
             get {
                 object obj = ResourceManager.GetObject("play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap polarodiresultado1ld9 {
+            get {
+                object obj = ResourceManager.GetObject("polarodiresultado1ld9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

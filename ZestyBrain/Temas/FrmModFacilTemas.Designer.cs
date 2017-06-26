@@ -109,10 +109,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pictureBox2.Image = global::ZestyBrain.Properties.Resources.clasificaciondelosalimentosd;
-            this.pictureBox2.Location = new System.Drawing.Point(152, 122);
+            this.pictureBox2.Image = global::ZestyBrain.Properties.Resources.Manzana_Adorable_56425;
+            this.pictureBox2.Location = new System.Drawing.Point(159, 122);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(77, 46);
+            this.pictureBox2.Size = new System.Drawing.Size(59, 55);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -144,7 +144,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(90, 21);
+            this.label5.Location = new System.Drawing.Point(85, 21);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(203, 33);
             this.label5.TabIndex = 16;
@@ -190,7 +190,7 @@
             this.btnBI3.FlatAppearance.BorderSize = 0;
             this.btnBI3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBI3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBI3.Location = new System.Drawing.Point(167, 53);
+            this.btnBI3.Location = new System.Drawing.Point(167, 54);
             this.btnBI3.Name = "btnBI3";
             this.btnBI3.Size = new System.Drawing.Size(47, 47);
             this.btnBI3.TabIndex = 23;
@@ -263,7 +263,7 @@
             this.pnlInicio.BackColor = System.Drawing.Color.Transparent;
             this.pnlInicio.BackgroundImage = global::ZestyBrain.Properties.Resources.home_150499_960_720;
             this.pnlInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlInicio.Location = new System.Drawing.Point(316, 512);
+            this.pnlInicio.Location = new System.Drawing.Point(315, 512);
             this.pnlInicio.Name = "pnlInicio";
             this.pnlInicio.Size = new System.Drawing.Size(58, 58);
             this.pnlInicio.TabIndex = 32;

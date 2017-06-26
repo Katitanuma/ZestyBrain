@@ -37,6 +37,9 @@
             this.btnBI3 = new System.Windows.Forms.Button();
             this.btnBI2 = new System.Windows.Forms.Button();
             this.btnBI1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,9 +49,9 @@
             // 
             this.pcbSalir.BackColor = System.Drawing.Color.Transparent;
             this.pcbSalir.Image = global::ZestyBrain.Properties.Resources.button_31222_960_720;
-            this.pcbSalir.Location = new System.Drawing.Point(772, 12);
+            this.pcbSalir.Location = new System.Drawing.Point(901, 16);
             this.pcbSalir.Name = "pcbSalir";
-            this.pcbSalir.Size = new System.Drawing.Size(50, 50);
+            this.pcbSalir.Size = new System.Drawing.Size(43, 43);
             this.pcbSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbSalir.TabIndex = 10;
             this.pcbSalir.TabStop = false;
@@ -158,13 +161,46 @@
             this.btnBI1.TabIndex = 24;
             this.btnBI1.UseVisualStyleBackColor = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::ZestyBrain.Properties.Resources.Foto;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Location = new System.Drawing.Point(650, 175);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(304, 309);
+            this.panel1.TabIndex = 27;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = global::ZestyBrain.Properties.Resources.Foto;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Location = new System.Drawing.Point(22, 175);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(304, 309);
+            this.panel2.TabIndex = 28;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::ZestyBrain.Properties.Resources.Foto;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(340, 175);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(304, 309);
+            this.panel3.TabIndex = 29;
+            // 
             // FrmModAvanTemas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ZestyBrain.Properties.Resources.fondoparaintefazavanzadoss;
+            this.BackgroundImage = global::ZestyBrain.Properties.Resources.ModoAvanzado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(834, 591);
+            this.ClientSize = new System.Drawing.Size(963, 591);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnBI3);
             this.Controls.Add(this.btnBI2);
             this.Controls.Add(this.btnBI1);
@@ -198,5 +234,8 @@
         private System.Windows.Forms.Button btnBI3;
         private System.Windows.Forms.Button btnBI2;
         private System.Windows.Forms.Button btnBI1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
