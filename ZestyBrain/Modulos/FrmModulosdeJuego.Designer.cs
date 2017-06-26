@@ -35,11 +35,11 @@
             this.pctModulo1 = new System.Windows.Forms.PictureBox();
             this.pnlNiveles = new System.Windows.Forms.Panel();
             this.lblNivel = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlRegresar = new System.Windows.Forms.Panel();
             this.pnlSiguiente = new System.Windows.Forms.Panel();
             this.pnlInicio = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSalir1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctModulo2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -67,11 +67,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Skater Girls Rock", 33.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Skater Girls Rock", 33.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(22, 51);
+            this.label1.Location = new System.Drawing.Point(27, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 47);
+            this.label1.Size = new System.Drawing.Size(198, 47);
             this.label1.TabIndex = 12;
             this.label1.Text = "¡Diviértete!";
             // 
@@ -103,7 +103,7 @@
             // 
             this.pctModulo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctModulo1.Image = global::ZestyBrain.Properties.Resources.Captura;
-            this.pctModulo1.Location = new System.Drawing.Point(115, 65);
+            this.pctModulo1.Location = new System.Drawing.Point(116, 65);
             this.pctModulo1.Name = "pctModulo1";
             this.pctModulo1.Size = new System.Drawing.Size(313, 269);
             this.pctModulo1.TabIndex = 14;
@@ -136,6 +136,14 @@
             this.lblNivel.Size = new System.Drawing.Size(149, 39);
             this.lblNivel.TabIndex = 15;
             this.lblNivel.Text = "6 - 9 Años";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(112, 61);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(321, 277);
+            this.panel2.TabIndex = 16;
             // 
             // pictureBox2
             // 
@@ -185,14 +193,6 @@
             this.pnlInicio.Click += new System.EventHandler(this.pnlInicio_Click);
             this.pnlInicio.MouseLeave += new System.EventHandler(this.pnlInicio_MouseLeave);
             this.pnlInicio.MouseHover += new System.EventHandler(this.pnlInicio_MouseHover);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(112, 61);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(321, 277);
-            this.panel2.TabIndex = 16;
             // 
             // FrmModulosdeJuego
             // 

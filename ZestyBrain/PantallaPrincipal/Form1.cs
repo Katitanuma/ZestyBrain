@@ -35,23 +35,6 @@ namespace ZestyBrain
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             progres();
-        }
-
-        private void pctSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            Application.ExitThread();
-        }
-
-        private void pctSalir_MouseHover(object sender, EventArgs e)
-        {
-            pctSalir.Size = new Size(48, 48);
-            //Sonido();
-        }
-
-        private void pctSalir_MouseLeave(object sender, EventArgs e)
-        {
-            pctSalir.Size = new Size(43, 43);
-        }
+        }       
     }
 }
