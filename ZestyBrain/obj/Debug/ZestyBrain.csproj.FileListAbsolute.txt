@@ -58,3 +58,4 @@ C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
 C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
+C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csprojResolveAssemblyReference.cache

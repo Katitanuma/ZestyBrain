@@ -169,6 +169,15 @@
   <data name="Boton enviar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton enviar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3a8c796390197d39080300ab91b991cf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3a8c796390197d39080300ab91b991cf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="losAnimales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\losAnimales.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fullconfiguration_settings_4501" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fullconfiguration_settings_4501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,8 +193,8 @@
   <data name="dog23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dog23.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="modojuegofacil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\modojuegofacil1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="inicio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\play.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,6 +220,9 @@
   <data name="botonPrueba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botonPrueba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="modojuegofacil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modojuegofacil1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mono-colgado-arbol-9703" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mono-colgado-arbol-9703.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -223,14 +235,11 @@
   <data name="1366_768_20091205010039268490" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1366_768_20091205010039268490.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="19357689_1344562952292903_905039134_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\19357689_1344562952292903_905039134_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="87123254d87f2a1d2ebaa771e828d3d5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\87123254d87f2a1d2ebaa771e828d3d5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="convite-selva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\convite-selva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="175554" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\175554.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="direction-25871_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\direction-25871_640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,11 +253,11 @@
   <data name="Imagen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Configu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Configu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="modojuegofacil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\modojuegofacil.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="175554" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\175554.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Chip-Dale-Bailando-86137" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chip-Dale-Bailando-86137.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,11 +277,17 @@
   <data name="listomodulo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\listomodulo2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="convite-selva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\convite-selva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CARTEL (120)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CARTEL (120).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Configu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Configu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tigre 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tigre 21.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2yyqtsz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2yyqtsz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sharejs_com_1004.eps" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sharejs_com_1004.eps.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,8 +319,8 @@
   <data name="cuerpohumano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuerpohumano1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2yyqtsz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2yyqtsz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1366_768_200912050100392684901" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1366_768_200912050100392684901.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BotonJugar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonJugar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -318,6 +333,9 @@
   </data>
   <data name="tigre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tigre.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boton_inicio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="opc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,8 +379,8 @@
   <data name="losAnimales1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\losAnimales1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="losAnimales" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\losAnimales.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="19357689_1344562952292903_905039134_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19357689_1344562952292903_905039134_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button-Previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button-Previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,7 +388,10 @@
   <data name="9325" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9325.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inicio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inicio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back-158491_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-158491_640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-150499_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-150499_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

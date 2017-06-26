@@ -35,17 +35,16 @@
             this.pctModulo1 = new System.Windows.Forms.PictureBox();
             this.pnlNiveles = new System.Windows.Forms.Panel();
             this.lblNivel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pnlRegresar = new System.Windows.Forms.Panel();
             this.pnlSiguiente = new System.Windows.Forms.Panel();
             this.pnlInicio = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSalir1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctModulo2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctModulo1)).BeginInit();
             this.pnlNiveles.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,6 +120,7 @@
             this.pnlNiveles.Controls.Add(this.lblNivel);
             this.pnlNiveles.Controls.Add(this.pctModulo1);
             this.pnlNiveles.Controls.Add(this.pctModulo2);
+            this.pnlNiveles.Controls.Add(this.panel2);
             this.pnlNiveles.Location = new System.Drawing.Point(207, 117);
             this.pnlNiveles.Name = "pnlNiveles";
             this.pnlNiveles.Size = new System.Drawing.Size(533, 428);
@@ -136,16 +136,6 @@
             this.lblNivel.Size = new System.Drawing.Size(149, 39);
             this.lblNivel.TabIndex = 15;
             this.lblNivel.Text = "6 - 9 Años";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::ZestyBrain.Properties.Resources.grenouille076sautejoie1;
-            this.pictureBox1.Location = new System.Drawing.Point(745, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 187);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -196,6 +186,14 @@
             this.pnlInicio.MouseLeave += new System.EventHandler(this.pnlInicio_MouseLeave);
             this.pnlInicio.MouseHover += new System.EventHandler(this.pnlInicio_MouseHover);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(112, 61);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(321, 277);
+            this.panel2.TabIndex = 16;
+            // 
             // FrmModulosdeJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,7 +206,6 @@
             this.Controls.Add(this.pnlSiguiente);
             this.Controls.Add(this.pnlRegresar);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnlNiveles);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pcbSalir1);
@@ -224,7 +221,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctModulo1)).EndInit();
             this.pnlNiveles.ResumeLayout(false);
             this.pnlNiveles.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -237,11 +233,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pctModulo1;
         private System.Windows.Forms.Panel pnlNiveles;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel pnlRegresar;
         private System.Windows.Forms.Panel pnlSiguiente;
         private System.Windows.Forms.Label lblNivel;
         private System.Windows.Forms.Panel pnlInicio;
+        private System.Windows.Forms.Panel panel2;
     }
 }

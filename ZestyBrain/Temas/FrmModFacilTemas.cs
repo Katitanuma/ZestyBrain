@@ -25,12 +25,12 @@ namespace ZestyBrain
 
         private void pcbSalir_MouseHover(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(55, 55);
+            pcbSalir.Size = new Size(47, 47);
         }
 
         private void pcbSalir_MouseLeave(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(50, 50);
+            pcbSalir.Size = new Size(43, 43);
         }
 
         private void pcbHome_Click(object sender, EventArgs e)
@@ -40,19 +40,7 @@ namespace ZestyBrain
             this.Close();
         }
 
-        private void pcbHome_MouseHover(object sender, EventArgs e)
-        {
-            pcbHome.Size = new Size(55, 55);
-            lblRegresar.Visible = true;
-            lblModulo.Visible = true;
-        }
-
-        private void pcbHome_MouseLeave(object sender, EventArgs e)
-        {
-            pcbHome.Size = new Size(50, 50);
-            lblRegresar.Visible = false;
-            lblModulo.Visible = false;
-        }
+          
       
         private void FrmModFacilTemas_Load(object sender, EventArgs e)
         {
@@ -106,6 +94,26 @@ namespace ZestyBrain
                 btnBI1.Focus();
                 
             }
+        }
+
+        private void pnlInicio_MouseHover(object sender, EventArgs e)
+        {
+            pnlInicio.Size = new Size(62, 62);
+        }
+
+        private void pnlInicio_MouseLeave(object sender, EventArgs e)
+        {
+            pnlInicio.Size = new Size(58, 58);
+        }
+
+        private void pnlRegresar_MouseHover(object sender, EventArgs e)
+        {
+            pnlRegresar.Size = new Size(62, 62);
+        }
+
+        private void pnlRegresar_MouseLeave(object sender, EventArgs e)
+        {
+            pnlRegresar.Size = new Size(58, 58);
         }
     }
 }
