@@ -554,6 +554,42 @@
   <ItemGroup>
     <None Include="Resources\Foto.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ininue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-25866_6401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLECHA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTEL %28122%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrella-de-mar1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen prueb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadrado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-ilustracion-de-paisaje_23-2147489882.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO MOD AVANZA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temarioavan.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

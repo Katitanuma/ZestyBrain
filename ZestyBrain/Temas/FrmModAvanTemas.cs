@@ -25,29 +25,16 @@ namespace ZestyBrain
 
         private void pcbSalir_MouseHover(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(55, 55);
+            pcbSalir.Size = new Size(47, 47);
         }
 
         private void pcbSalir_MouseLeave(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(50, 50);
+            pcbSalir.Size = new Size(43, 43);
         }
 
-        private void pcbHome_Click(object sender, EventArgs e)
-        {
-            FrmModulosdeJuego FMJ = new FrmModulosdeJuego();
-            FMJ.Show();
-            this.Close();
-        }
+       
 
-        private void pcbHome_MouseHover(object sender, EventArgs e)
-        {
-            pcbHome.Size = new Size(55, 55);
-        }
-
-        private void pcbHome_MouseLeave(object sender, EventArgs e)
-        {
-            pcbHome.Size = new Size(50, 50);
-        }
+       
     }
 }

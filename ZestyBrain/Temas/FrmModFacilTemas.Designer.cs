@@ -144,11 +144,11 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(85, 21);
+            this.label5.Location = new System.Drawing.Point(107, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(203, 33);
+            this.label5.Size = new System.Drawing.Size(160, 33);
             this.label5.TabIndex = 16;
-            this.label5.Text = "Cuerpo Humano";
+            this.label5.Text = "Los Sentidos";
             // 
             // btnBI1
             // 
@@ -263,7 +263,7 @@
             this.pnlInicio.BackColor = System.Drawing.Color.Transparent;
             this.pnlInicio.BackgroundImage = global::ZestyBrain.Properties.Resources.home_150499_960_720;
             this.pnlInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlInicio.Location = new System.Drawing.Point(315, 512);
+            this.pnlInicio.Location = new System.Drawing.Point(313, 512);
             this.pnlInicio.Name = "pnlInicio";
             this.pnlInicio.Size = new System.Drawing.Size(58, 58);
             this.pnlInicio.TabIndex = 32;
