@@ -41,13 +41,7 @@ namespace ZestyBrain
         }
 
           
-      
-        private void FrmModFacilTemas_Load(object sender, EventArgs e)
-        {
-            btnBI1.Focus();
-                      
-        }
-
+    
         private void btnBI1_Click(object sender, EventArgs e)
         {
             FrmAnimales FA = new FrmAnimales();
@@ -62,40 +56,7 @@ namespace ZestyBrain
             this.Close();
         }
 
-        private void btnBI3_Click(object sender, EventArgs e)
-        {
-            FrmCuerpoHumano2 FCH = new FrmCuerpoHumano2();
-            FCH.Show();
-            this.Close();
-        }
-
-        private void btnBI1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode==Keys.Down)
-            {
-                btnBI2.Focus();
-               
-            }
-        }
-
-        private void btnBI2_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Down)
-            {
-                btnBI3.Focus();
-                
-            }
-        }
-
-        private void btnBI3_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Down)
-            {
-                btnBI1.Focus();
-                
-            }
-        }
-
+        
         private void pnlInicio_MouseHover(object sender, EventArgs e)
         {
             pnlInicio.Size = new Size(62, 62);
@@ -114,6 +75,50 @@ namespace ZestyBrain
         private void pnlRegresar_MouseLeave(object sender, EventArgs e)
         {
             pnlRegresar.Size = new Size(58, 58);
+        }
+
+        private void lblAnimal_MouseHover(object sender, EventArgs e)
+        {
+            lblAnimal.ForeColor = Color.Black;
+        }
+
+        private void lblAnimal_MouseLeave(object sender, EventArgs e)
+        {
+            lblAnimal.ForeColor = Color.White;
+        }
+
+        private void lblAlimentos_MouseHover(object sender, EventArgs e)
+        {
+            lblAlimentos.ForeColor = Color.Black;
+        }
+
+        private void lblAlimentos_MouseLeave(object sender, EventArgs e)
+        {
+            lblAlimentos.ForeColor = Color.White;
+        }
+
+        private void lblSentidos_MouseHover(object sender, EventArgs e)
+        {
+            lblSentidos.ForeColor = Color.Black;
+        }
+
+        private void lblSentidos_MouseLeave(object sender, EventArgs e)
+        {
+            lblSentidos.ForeColor = Color.White;
+        }
+
+        private void pnlRegresar_Click(object sender, EventArgs e)
+        {
+            FrmModulosdeJuego objModulo = new FrmModulosdeJuego();
+            objModulo.Show();
+            this.Visible = false;
+        }
+
+        private void pnlInicio_Click(object sender, EventArgs e)
+        {
+            PantallaPrincipal.FrmInicio objInicio = new PantallaPrincipal.FrmInicio();
+            objInicio.Show();
+            this.Visible = false;
         }
     }
 }

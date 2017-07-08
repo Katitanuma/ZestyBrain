@@ -34,10 +34,12 @@
             this.lblReino = new System.Windows.Forms.Label();
             this.btnTipoR = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnReino = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnContA = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,8 +48,6 @@
             this.pnlRegresar = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnContA = new System.Windows.Forms.Button();
-            this.btnReino = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbSalir)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -139,6 +139,22 @@
             this.panel1.Size = new System.Drawing.Size(289, 241);
             this.panel1.TabIndex = 27;
             // 
+            // btnReino
+            // 
+            this.btnReino.BackColor = System.Drawing.Color.Transparent;
+            this.btnReino.BackgroundImage = global::ZestyBrain.Properties.Resources.button_play;
+            this.btnReino.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReino.FlatAppearance.BorderSize = 0;
+            this.btnReino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReino.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnReino.Location = new System.Drawing.Point(66, 190);
+            this.btnReino.Name = "btnReino";
+            this.btnReino.Size = new System.Drawing.Size(40, 40);
+            this.btnReino.TabIndex = 28;
+            this.btnReino.UseVisualStyleBackColor = false;
+            this.btnReino.MouseLeave += new System.EventHandler(this.btnReino_MouseLeave);
+            this.btnReino.MouseHover += new System.EventHandler(this.btnReino_MouseHover);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = global::ZestyBrain.Properties.Resources._5_reinos;
@@ -184,6 +200,22 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(288, 309);
             this.panel3.TabIndex = 29;
+            // 
+            // btnContA
+            // 
+            this.btnContA.BackColor = System.Drawing.Color.Transparent;
+            this.btnContA.BackgroundImage = global::ZestyBrain.Properties.Resources.button_play;
+            this.btnContA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnContA.FlatAppearance.BorderSize = 0;
+            this.btnContA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnContA.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnContA.Location = new System.Drawing.Point(57, 244);
+            this.btnContA.Name = "btnContA";
+            this.btnContA.Size = new System.Drawing.Size(40, 40);
+            this.btnContA.TabIndex = 28;
+            this.btnContA.UseVisualStyleBackColor = false;
+            this.btnContA.MouseLeave += new System.EventHandler(this.btnContA_MouseLeave);
+            this.btnContA.MouseHover += new System.EventHandler(this.btnContA_MouseHover);
             // 
             // pictureBox1
             // 
@@ -267,43 +299,11 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::ZestyBrain.Properties.Resources.grenouille076sautejoie1;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 362);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 376);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(163, 186);
             this.pictureBox2.TabIndex = 41;
             this.pictureBox2.TabStop = false;
-            // 
-            // btnContA
-            // 
-            this.btnContA.BackColor = System.Drawing.Color.Transparent;
-            this.btnContA.BackgroundImage = global::ZestyBrain.Properties.Resources.button_play;
-            this.btnContA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnContA.FlatAppearance.BorderSize = 0;
-            this.btnContA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnContA.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnContA.Location = new System.Drawing.Point(57, 244);
-            this.btnContA.Name = "btnContA";
-            this.btnContA.Size = new System.Drawing.Size(40, 40);
-            this.btnContA.TabIndex = 28;
-            this.btnContA.UseVisualStyleBackColor = false;
-            this.btnContA.MouseLeave += new System.EventHandler(this.btnContA_MouseLeave);
-            this.btnContA.MouseHover += new System.EventHandler(this.btnContA_MouseHover);
-            // 
-            // btnReino
-            // 
-            this.btnReino.BackColor = System.Drawing.Color.Transparent;
-            this.btnReino.BackgroundImage = global::ZestyBrain.Properties.Resources.button_play;
-            this.btnReino.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnReino.FlatAppearance.BorderSize = 0;
-            this.btnReino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReino.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReino.Location = new System.Drawing.Point(66, 190);
-            this.btnReino.Name = "btnReino";
-            this.btnReino.Size = new System.Drawing.Size(40, 40);
-            this.btnReino.TabIndex = 28;
-            this.btnReino.UseVisualStyleBackColor = false;
-            this.btnReino.MouseLeave += new System.EventHandler(this.btnReino_MouseLeave);
-            this.btnReino.MouseHover += new System.EventHandler(this.btnReino_MouseHover);
             // 
             // FrmModAvanTemas
             // 
@@ -312,7 +312,6 @@
             this.BackgroundImage = global::ZestyBrain.Properties.Resources.FONDO_MOD_AVANZA;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(963, 591);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pnlRegresar);
             this.Controls.Add(this.pnlInicio);
@@ -322,6 +321,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pcbSalir);
+            this.Controls.Add(this.pictureBox2);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmModAvanTemas";

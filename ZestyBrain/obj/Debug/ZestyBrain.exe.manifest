@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZestyBrain.exe" size="25399808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZestyBrain.exe" size="25451520">
       <assemblyIdentity name="ZestyBrain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>7UFhdTQgBkIOrwFyd+NBfGqovDLPM8UH4/ZTDFQ/y28=</dsig:DigestValue>
+        <dsig:DigestValue>lETVM1+6ABurJ35XvZAqPX9cV/9z9EGWEa+81WKbvJ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

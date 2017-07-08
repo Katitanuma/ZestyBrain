@@ -874,6 +874,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_animada_Ojos_111 {
+            get {
+                object obj = ResourceManager.GetObject("Imagen-animada-Ojos-111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagen_prueb {
             get {
                 object obj = ResourceManager.GetObject("imagen prueb", resourceCulture);

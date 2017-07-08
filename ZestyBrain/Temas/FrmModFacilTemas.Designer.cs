@@ -33,12 +33,9 @@
             this.lblAnimal = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblAlimentos = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnBI1 = new System.Windows.Forms.Button();
-            this.btnBI2 = new System.Windows.Forms.Button();
-            this.btnBI3 = new System.Windows.Forms.Button();
+            this.lblSentidos = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -88,12 +85,14 @@
             this.lblAnimal.AutoSize = true;
             this.lblAnimal.BackColor = System.Drawing.Color.Transparent;
             this.lblAnimal.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnimal.ForeColor = System.Drawing.Color.Black;
-            this.lblAnimal.Location = new System.Drawing.Point(126, 29);
+            this.lblAnimal.ForeColor = System.Drawing.Color.White;
+            this.lblAnimal.Location = new System.Drawing.Point(124, 52);
             this.lblAnimal.Name = "lblAnimal";
             this.lblAnimal.Size = new System.Drawing.Size(125, 33);
             this.lblAnimal.TabIndex = 11;
             this.lblAnimal.Text = "Animales";
+            this.lblAnimal.MouseLeave += new System.EventHandler(this.lblAnimal_MouseLeave);
+            this.lblAnimal.MouseHover += new System.EventHandler(this.lblAnimal_MouseHover);
             // 
             // pictureBox1
             // 
@@ -117,86 +116,44 @@
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
-            // label4
+            // lblAlimentos
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(126, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 33);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Alimentos";
+            this.lblAlimentos.AutoSize = true;
+            this.lblAlimentos.BackColor = System.Drawing.Color.Transparent;
+            this.lblAlimentos.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAlimentos.ForeColor = System.Drawing.Color.White;
+            this.lblAlimentos.Location = new System.Drawing.Point(125, 52);
+            this.lblAlimentos.Name = "lblAlimentos";
+            this.lblAlimentos.Size = new System.Drawing.Size(131, 33);
+            this.lblAlimentos.TabIndex = 15;
+            this.lblAlimentos.Text = "Alimentos";
+            this.lblAlimentos.MouseLeave += new System.EventHandler(this.lblAlimentos_MouseLeave);
+            this.lblAlimentos.MouseHover += new System.EventHandler(this.lblAlimentos_MouseHover);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pictureBox3.Image = global::ZestyBrain.Properties.Resources.cuerpohumanod;
-            this.pictureBox3.Location = new System.Drawing.Point(157, 109);
+            this.pictureBox3.Image = global::ZestyBrain.Properties.Resources.Imagen_animada_Ojos_111;
+            this.pictureBox3.Location = new System.Drawing.Point(167, 109);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 46);
+            this.pictureBox3.Size = new System.Drawing.Size(52, 46);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
-            // label5
+            // lblSentidos
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(107, 23);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(160, 33);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Los Sentidos";
-            // 
-            // btnBI1
-            // 
-            this.btnBI1.BackColor = System.Drawing.Color.Transparent;
-            this.btnBI1.BackgroundImage = global::ZestyBrain.Properties.Resources.boton_ir;
-            this.btnBI1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBI1.FlatAppearance.BorderSize = 0;
-            this.btnBI1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBI1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBI1.Location = new System.Drawing.Point(163, 62);
-            this.btnBI1.Name = "btnBI1";
-            this.btnBI1.Size = new System.Drawing.Size(47, 47);
-            this.btnBI1.TabIndex = 21;
-            this.btnBI1.UseVisualStyleBackColor = false;
-            this.btnBI1.Click += new System.EventHandler(this.btnBI1_Click);
-            this.btnBI1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnBI1_KeyDown);
-            // 
-            // btnBI2
-            // 
-            this.btnBI2.BackColor = System.Drawing.Color.Transparent;
-            this.btnBI2.BackgroundImage = global::ZestyBrain.Properties.Resources.boton_ir;
-            this.btnBI2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBI2.FlatAppearance.BorderSize = 0;
-            this.btnBI2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBI2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBI2.Location = new System.Drawing.Point(164, 62);
-            this.btnBI2.Name = "btnBI2";
-            this.btnBI2.Size = new System.Drawing.Size(47, 47);
-            this.btnBI2.TabIndex = 22;
-            this.btnBI2.UseVisualStyleBackColor = false;
-            this.btnBI2.Click += new System.EventHandler(this.btnBI2_Click);
-            this.btnBI2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnBI2_KeyDown);
-            // 
-            // btnBI3
-            // 
-            this.btnBI3.BackColor = System.Drawing.Color.Transparent;
-            this.btnBI3.BackgroundImage = global::ZestyBrain.Properties.Resources.boton_ir;
-            this.btnBI3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnBI3.FlatAppearance.BorderSize = 0;
-            this.btnBI3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBI3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnBI3.Location = new System.Drawing.Point(167, 54);
-            this.btnBI3.Name = "btnBI3";
-            this.btnBI3.Size = new System.Drawing.Size(47, 47);
-            this.btnBI3.TabIndex = 23;
-            this.btnBI3.UseVisualStyleBackColor = false;
-            this.btnBI3.Click += new System.EventHandler(this.btnBI3_Click);
-            this.btnBI3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnBI3_KeyDown);
+            this.lblSentidos.AutoSize = true;
+            this.lblSentidos.BackColor = System.Drawing.Color.Transparent;
+            this.lblSentidos.Font = new System.Drawing.Font("Skater Girls Rock", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSentidos.ForeColor = System.Drawing.Color.White;
+            this.lblSentidos.Location = new System.Drawing.Point(110, 46);
+            this.lblSentidos.Name = "lblSentidos";
+            this.lblSentidos.Size = new System.Drawing.Size(160, 33);
+            this.lblSentidos.TabIndex = 16;
+            this.lblSentidos.Text = "Los Sentidos";
+            this.lblSentidos.MouseLeave += new System.EventHandler(this.lblSentidos_MouseLeave);
+            this.lblSentidos.MouseHover += new System.EventHandler(this.lblSentidos_MouseHover);
             // 
             // panel1
             // 
@@ -205,7 +162,6 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.lblAnimal);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.btnBI1);
             this.panel1.Location = new System.Drawing.Point(34, 113);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(292, 228);
@@ -216,9 +172,8 @@
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = global::ZestyBrain.Properties.Resources.CARTEL__120_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.lblAlimentos);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.btnBI2);
             this.panel2.Location = new System.Drawing.Point(332, 258);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(296, 224);
@@ -229,9 +184,8 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = global::ZestyBrain.Properties.Resources.CARTEL__120_;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.lblSentidos);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.btnBI3);
             this.panel3.Location = new System.Drawing.Point(654, 392);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(297, 198);
@@ -263,10 +217,11 @@
             this.pnlInicio.BackColor = System.Drawing.Color.Transparent;
             this.pnlInicio.BackgroundImage = global::ZestyBrain.Properties.Resources.home_150499_960_720;
             this.pnlInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlInicio.Location = new System.Drawing.Point(313, 512);
+            this.pnlInicio.Location = new System.Drawing.Point(301, 512);
             this.pnlInicio.Name = "pnlInicio";
             this.pnlInicio.Size = new System.Drawing.Size(58, 58);
             this.pnlInicio.TabIndex = 32;
+            this.pnlInicio.Click += new System.EventHandler(this.pnlInicio_Click);
             this.pnlInicio.MouseLeave += new System.EventHandler(this.pnlInicio_MouseLeave);
             this.pnlInicio.MouseHover += new System.EventHandler(this.pnlInicio_MouseHover);
             // 
@@ -279,6 +234,7 @@
             this.pnlRegresar.Name = "pnlRegresar";
             this.pnlRegresar.Size = new System.Drawing.Size(58, 58);
             this.pnlRegresar.TabIndex = 33;
+            this.pnlRegresar.Click += new System.EventHandler(this.pnlRegresar_Click);
             this.pnlRegresar.MouseLeave += new System.EventHandler(this.pnlRegresar_MouseLeave);
             this.pnlRegresar.MouseHover += new System.EventHandler(this.pnlRegresar_MouseHover);
             // 
@@ -302,7 +258,6 @@
             this.Name = "FrmModFacilTemas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmModFacilTemas";
-            this.Load += new System.EventHandler(this.FrmModFacilTemas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -326,12 +281,9 @@
         private System.Windows.Forms.Label lblAnimal;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblAlimentos;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnBI1;
-        private System.Windows.Forms.Button btnBI2;
-        private System.Windows.Forms.Button btnBI3;
+        private System.Windows.Forms.Label lblSentidos;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
