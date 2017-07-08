@@ -590,6 +590,27 @@
   <ItemGroup>
     <None Include="Resources\temarioavan.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciliate.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paycru611061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop_d99a1446-bd6d-497f-aa6d-ba1d8caf5907.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_reinos.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7056f2eebd745b0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SVT_Play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-play.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

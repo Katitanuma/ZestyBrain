@@ -61,19 +61,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>327J9av9IKWRplakkvgMHxTk/wagk7fdou+8L6jg2BY=</dsig:DigestValue>
+        <dsig:DigestValue>WWx93jpzMUHMIVaZh1xCfcHlxOhP98U8VX2iMGO9nIQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZestyBrain.exe" size="25278464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZestyBrain.exe" size="25399808">
       <assemblyIdentity name="ZestyBrain" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lwn3aQbztDxfChpn0YyPPLo9uetjxYc6H+degYgS2s4=</dsig:DigestValue>
+        <dsig:DigestValue>7UFhdTQgBkIOrwFyd+NBfGqovDLPM8UH4/ZTDFQ/y28=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
