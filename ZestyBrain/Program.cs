@@ -16,7 +16,7 @@ namespace ZestyBrain
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPortada());
+            Application.Run(new FrmPruebaClasificacion());
         }
     }
 }
