@@ -1004,6 +1004,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fecund_inter {
+            get {
+                object obj = ResourceManager.GetObject("fecund_inter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fire {
             get {
                 object obj = ResourceManager.GetObject("fire", resourceCulture);
@@ -1197,6 +1207,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap gear_47203_960_720 {
             get {
                 object obj = ResourceManager.GetObject("gear-47203_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap germinacion {
+            get {
+                object obj = ResourceManager.GetObject("germinacion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1727,6 +1747,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap red_stop_button_icon_png_9 {
             get {
                 object obj = ResourceManager.GetObject("red-stop-button-icon-png-9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reproduccion_animal_2_a_4_638 {
+            get {
+                object obj = ResourceManager.GetObject("reproduccion-animal-2-a-4-638", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
