@@ -65,7 +65,9 @@ namespace ZestyBrain
 
         private void lblPrueba_Click(object sender, EventArgs e)
         {
-
+            FrmPruebaAnimales objPruebaAnimal = new FrmPruebaAnimales();
+            objPruebaAnimal.Show();
+            this.Visible = false;
         }
 
         private void lblPrueba_MouseHover(object sender, EventArgs e)

@@ -26,7 +26,7 @@ namespace ZestyBrain.PantallaPrincipal
             {
                 if (player == null)
                 {
-                    player = new SoundPlayer(@"C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\Resources\chup.wav");
+                    player = new SoundPlayer(@"C:\Users\Katy\Pictures\ZestyBrain\ZestyBrain\Resources\chup.wav");                    
                     player.Play();
                 }
                 else

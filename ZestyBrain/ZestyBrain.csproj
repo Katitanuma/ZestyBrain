@@ -767,6 +767,25 @@
   <ItemGroup>
     <None Include="Resources\tigre.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oir.png" />
+    <None Include="Resources\brownie-con-cereza-comida-lacteos-y-postres-pintado-por-juancha3-9724814.jpg" />
+    <None Include="Resources\aldeano-en-la-montaña.jpeg" />
+    <None Include="Resources\fire1.jpg" />
+    <None Include="Resources\240_F_126582332_wQVIhSK26zbapKu9OHbID9pTZRrp9gJw1.jpg" />
+    <None Include="Resources\oler1.jpg" />
+    <None Include="Resources\240_F_126582332_wQVIhSK26zbapKu9OHbID9pTZRrp9gJw.jpg" />
+    <None Include="Resources\eliminar-el-mal-olor-de-pies-3.jpg" />
+    <None Include="Resources\frio.gif" />
+    <None Include="Resources\avoir froid.jpg" />
+    <None Include="Resources\fire.jpg" />
+    <None Include="Resources\body-1293884_960_720.png" />
+    <None Include="Resources\64448081-Una-ilustraci-n-de-una-parte-del-cuerpo-mano-humana-Foto-de-archivo.png" />
+    <None Include="Resources\ojo.png" />
+    <None Include="Resources\oidod.png" />
+    <None Include="Resources\nariz.png" />
+    <None Include="Resources\10061696.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
