@@ -77,10 +77,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmPruebaAnimales.cs">
+    <Compile Include="PruebasModoFacil\FrmPruebaAnimales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPruebaAnimales.Designer.cs">
+    <Compile Include="PruebasModoFacil\FrmPruebaAnimales.Designer.cs">
       <DependentUpon>FrmPruebaAnimales.cs</DependentUpon>
     </Compile>
     <Compile Include="LeccionesModoFacil\FrmAlimentos.cs">
@@ -166,7 +166,7 @@
     <EmbeddedResource Include="FrmLeccionTiposdeReproducion.resx">
       <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPruebaAnimales.resx">
+    <EmbeddedResource Include="PruebasModoFacil\FrmPruebaAnimales.resx">
       <DependentUpon>FrmPruebaAnimales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmResultado.resx">
@@ -727,6 +727,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\errorbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-01-01-sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\192e6641ffacc709907af49e992818a5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerdo color 835%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vaca1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caballo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oveja.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perrobonito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6623779-strong-bull-cartoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tigre.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

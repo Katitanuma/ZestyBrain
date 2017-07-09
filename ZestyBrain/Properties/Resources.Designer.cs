@@ -133,6 +133,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _192e6641ffacc709907af49e992818a5 {
+            get {
+                object obj = ResourceManager.GetObject("192e6641ffacc709907af49e992818a5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _19357689_1344562952292903_905039134_n {
             get {
                 object obj = ResourceManager.GetObject("19357689_1344562952292903_905039134_n", resourceCulture);
@@ -274,6 +284,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6623779_strong_bull_cartoon {
+            get {
+                object obj = ResourceManager.GetObject("6623779-strong-bull-cartoon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _67b62d4c00336a5b0bf8b73e420f992d {
             get {
                 object obj = ResourceManager.GetObject("67b62d4c00336a5b0bf8b73e420f992d", resourceCulture);
@@ -407,6 +427,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap arroz {
             get {
                 object obj = ResourceManager.GetObject("arroz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap audio {
+            get {
+                object obj = ResourceManager.GetObject("audio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -564,6 +594,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap caballo {
+            get {
+                object obj = ResourceManager.GetObject("caballo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura {
             get {
                 object obj = ResourceManager.GetObject("Captura", resourceCulture);
@@ -627,6 +667,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap cartoon_gorilla {
             get {
                 object obj = ResourceManager.GetObject("cartoon_gorilla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cerdo_color_835_ {
+            get {
+                object obj = ResourceManager.GetObject("Cerdo color 835)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1014,6 +1064,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gallina {
+            get {
+                object obj = ResourceManager.GetObject("gallina", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gear_47203_960_720 {
             get {
                 object obj = ResourceManager.GetObject("gear-47203_960_720", resourceCulture);
@@ -1107,6 +1167,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap huevo {
             get {
                 object obj = ResourceManager.GetObject("huevo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_01_01_sound {
+            get {
+                object obj = ResourceManager.GetObject("icon-01-01-sound", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1374,9 +1444,49 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Oveja {
+            get {
+                object obj = ResourceManager.GetObject("Oveja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pato {
+            get {
+                object obj = ResourceManager.GetObject("pato", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paycru611061 {
             get {
                 object obj = ResourceManager.GetObject("paycru611061", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perro {
+            get {
+                object obj = ResourceManager.GetObject("perro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perrobonito {
+            get {
+                object obj = ResourceManager.GetObject("perrobonito", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1564,6 +1674,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tigre1 {
+            get {
+                object obj = ResourceManager.GetObject("tigre1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TOCINO {
             get {
                 object obj = ResourceManager.GetObject("TOCINO", resourceCulture);
@@ -1577,6 +1697,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap vaca {
             get {
                 object obj = ResourceManager.GetObject("vaca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vaca1 {
+            get {
+                object obj = ResourceManager.GetObject("vaca1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
