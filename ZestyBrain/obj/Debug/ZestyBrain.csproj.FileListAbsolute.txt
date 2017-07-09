@@ -90,3 +90,9 @@ D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.GenerateR
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAlimentos.resources
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.config
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\Interop.WMPLib.dll
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.ResolveComReference.cache
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
+C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
