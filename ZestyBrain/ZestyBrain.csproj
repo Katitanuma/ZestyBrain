@@ -89,16 +89,16 @@
     <Compile Include="LeccionesModoFacil\FrmAlimentos.Designer.cs">
       <DependentUpon>FrmAlimentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmLeccionTiposdeReproducion.cs">
+    <Compile Include="LeccionesModoAvan\FrmLeccionTiposdeReproducion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLeccionTiposdeReproducion.Designer.cs">
+    <Compile Include="LeccionesModoAvan\FrmLeccionTiposdeReproducion.Designer.cs">
       <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmResultado.cs">
+    <Compile Include="PruebaModoDificil\FrmResultado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmResultado.Designer.cs">
+    <Compile Include="PruebaModoDificil\FrmResultado.Designer.cs">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaPrincipal\Form1.cs">
@@ -125,22 +125,22 @@
     <Compile Include="PantallaPrincipal\Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Niveles de Modulos\FrmModAvanTemas.cs">
+    <Compile Include="SubNiveles de Modulos\FrmModAvanTemas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Niveles de Modulos\FrmModAvanTemas.Designer.cs">
+    <Compile Include="SubNiveles de Modulos\FrmModAvanTemas.Designer.cs">
       <DependentUpon>FrmModAvanTemas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Niveles de Modulos\FrmModFacilTemas.cs">
+    <Compile Include="SubNiveles de Modulos\FrmModFacilTemas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Niveles de Modulos\FrmModFacilTemas.Designer.cs">
+    <Compile Include="SubNiveles de Modulos\FrmModFacilTemas.Designer.cs">
       <DependentUpon>FrmModFacilTemas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Modulos\FrmModulosdeJuego.cs">
+    <Compile Include="Niveles\FrmModulosdeJuego.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modulos\FrmModulosdeJuego.Designer.cs">
+    <Compile Include="Niveles\FrmModulosdeJuego.Designer.cs">
       <DependentUpon>FrmModulosdeJuego.cs</DependentUpon>
     </Compile>
     <Compile Include="Configuracion\FrmConfiguracion.cs">
@@ -163,13 +163,13 @@
     <Compile Include="PruebasModoFacil\PruebaSentido.Designer.cs">
       <DependentUpon>PruebaSentido.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmLeccionTiposdeReproducion.resx">
+    <EmbeddedResource Include="LeccionesModoAvan\FrmLeccionTiposdeReproducion.resx">
       <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PruebasModoFacil\FrmPruebaAnimales.resx">
       <DependentUpon>FrmPruebaAnimales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmResultado.resx">
+    <EmbeddedResource Include="PruebaModoDificil\FrmResultado.resx">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LeccionesModoFacil\FrmAlimentos.resx">
@@ -187,13 +187,13 @@
     <EmbeddedResource Include="PantallaPrincipal\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Niveles de Modulos\FrmModAvanTemas.resx">
+    <EmbeddedResource Include="SubNiveles de Modulos\FrmModAvanTemas.resx">
       <DependentUpon>FrmModAvanTemas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Niveles de Modulos\FrmModFacilTemas.resx">
+    <EmbeddedResource Include="SubNiveles de Modulos\FrmModFacilTemas.resx">
       <DependentUpon>FrmModFacilTemas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modulos\FrmModulosdeJuego.resx">
+    <EmbeddedResource Include="Niveles\FrmModulosdeJuego.resx">
       <DependentUpon>FrmModulosdeJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Configuracion\FrmConfiguracion.resx">
@@ -785,6 +785,9 @@
     <None Include="Resources\oidod.png" />
     <None Include="Resources\nariz.png" />
     <None Include="Resources\10061696.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1624,6 +1624,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paisaje_de_dibujos_animados__camino__prado__sol__nubes_207394 {
+            get {
+                object obj = ResourceManager.GetObject("paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pato {
             get {
                 object obj = ResourceManager.GetObject("pato", resourceCulture);
