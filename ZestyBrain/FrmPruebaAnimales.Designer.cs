@@ -43,7 +43,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Skater Girls Rock", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(367, 50);
+            this.label5.Location = new System.Drawing.Point(367, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(292, 36);
             this.label5.TabIndex = 44;

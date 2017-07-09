@@ -119,9 +119,9 @@
             this.pnlVerificar.BackgroundImage = global::ZestyBrain.Properties.Resources.boton_de_verificar;
             this.pnlVerificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlVerificar.Controls.Add(this.lblVerificar);
-            this.pnlVerificar.Location = new System.Drawing.Point(392, 656);
+            this.pnlVerificar.Location = new System.Drawing.Point(435, 656);
             this.pnlVerificar.Name = "pnlVerificar";
-            this.pnlVerificar.Size = new System.Drawing.Size(248, 52);
+            this.pnlVerificar.Size = new System.Drawing.Size(165, 52);
             this.pnlVerificar.TabIndex = 22;
             // 
             // lblVerificar
@@ -130,11 +130,11 @@
             this.lblVerificar.BackColor = System.Drawing.Color.Transparent;
             this.lblVerificar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVerificar.ForeColor = System.Drawing.Color.White;
-            this.lblVerificar.Location = new System.Drawing.Point(17, 11);
+            this.lblVerificar.Location = new System.Drawing.Point(33, 10);
             this.lblVerificar.Name = "lblVerificar";
-            this.lblVerificar.Size = new System.Drawing.Size(217, 29);
+            this.lblVerificar.Size = new System.Drawing.Size(109, 29);
             this.lblVerificar.TabIndex = 22;
-            this.lblVerificar.Text = "Verificar Respuestas";
+            this.lblVerificar.Text = "Resultado";
             this.lblVerificar.Click += new System.EventHandler(this.lblVerificar_Click);
             this.lblVerificar.MouseLeave += new System.EventHandler(this.lblVerificar_MouseLeave);
             this.lblVerificar.MouseHover += new System.EventHandler(this.lblVerificar_MouseHover);
@@ -549,6 +549,7 @@
             this.Name = "FrmPruebaClasificacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPruebaClasificacion";
+            this.Load += new System.EventHandler(this.FrmPruebaClasificacion_Load);
             this.pnlVerificar.ResumeLayout(false);
             this.pnlVerificar.PerformLayout();
             this.pnlOpciones.ResumeLayout(false);

@@ -69,17 +69,24 @@ namespace ZestyBrain
 
         private void lblVerificar_MouseLeave(object sender, EventArgs e)
         {
-            pnlVerificar.Size = new Size(248, 52);
+            pnlVerificar.Size = new Size(165, 52);
         }
 
         private void lblVerificar_MouseHover(object sender, EventArgs e)
         {
-            pnlVerificar.Size = new Size(253, 57);
+            pnlVerificar.Size = new Size(170, 57);
         }
 
         private void lblVerificar_Click(object sender, EventArgs e)
         {
+            pnlRegresar.Visible = true;
+            pctHome.Visible = true;
+        }
 
+        private void FrmPruebaClasificacion_Load(object sender, EventArgs e)
+        {
+            pnlRegresar.Visible = false;
+            pctHome.Visible = false;
         }
     }
 }
