@@ -26,46 +26,62 @@ namespace ZestyBrain
 
         private void pcbSalir_MouseHover(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(55, 55);
+            pcbSalir.Size = new Size(48, 48);
         }
 
         private void pcbSalir_MouseLeave(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(50, 50);
+            pcbSalir.Size = new Size(43, 43);
         }
 
         private void pcbHome_Click(object sender, EventArgs e)
         {
-            FrmModFacilTemas FMF = new FrmModFacilTemas();
-            FMF.Show();
-            this.Close();
+            PantallaPrincipal.FrmInicio objInicio = new PantallaPrincipal.FrmInicio();
+            objInicio.Show();
+            this.Visible=false;
         }
 
         private void pcbHome_MouseHover(object sender, EventArgs e)
         {
-            pcbHome.Size = new Size(55, 55);
+            pcbHome.Size = new Size(58, 62);
         }
 
         private void pcbHome_MouseLeave(object sender, EventArgs e)
         {   
-            pcbHome.Size = new Size(50, 50);
+            pcbHome.Size = new Size(53, 57);
+        }
+             
+
+        private void pnlRegresar_MouseHover(object sender, EventArgs e)
+        {
+            pnlRegresar.Size = new Size(47, 47);
         }
 
-        private void pcbPrueba_MouseHover(object sender, EventArgs e)
+        private void pnlRegresar_MouseLeave(object sender, EventArgs e)
         {
-            pcbPrueba.Size = new Size(55, 55);
+            pnlRegresar.Size = new Size(43, 43);
         }
 
-        private void pcbPrueba_MouseLeave(object sender, EventArgs e)
+        private void pnlRegresar_Click(object sender, EventArgs e)
         {
-            pcbPrueba.Size = new Size(50, 50);
+            FrmModFacilTemas objModoFa = new FrmModFacilTemas();
+            objModoFa.Show();
+            this.Visible=false;
         }
 
-        private void pcbPrueba_Click(object sender, EventArgs e)
+        private void lblPrueba_Click(object sender, EventArgs e)
         {
-            FrmPruebaAnimales FPA = new FrmPruebaAnimales();
-            FPA.Show();
-            this.Close();
+
+        }
+
+        private void lblPrueba_MouseHover(object sender, EventArgs e)
+        {
+            pnlPrueba.Size = new Size(107, 92);
+        }
+
+        private void lblPrueba_MouseLeave(object sender, EventArgs e)
+        {
+            pnlPrueba.Size = new Size(102, 87);
         }
     }
 }

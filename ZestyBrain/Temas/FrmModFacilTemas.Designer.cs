@@ -91,6 +91,7 @@
             this.lblAnimal.Size = new System.Drawing.Size(125, 33);
             this.lblAnimal.TabIndex = 11;
             this.lblAnimal.Text = "Animales";
+            this.lblAnimal.Click += new System.EventHandler(this.lblAnimal_Click);
             this.lblAnimal.MouseLeave += new System.EventHandler(this.lblAnimal_MouseLeave);
             this.lblAnimal.MouseHover += new System.EventHandler(this.lblAnimal_MouseHover);
             // 

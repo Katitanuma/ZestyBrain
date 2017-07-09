@@ -254,6 +254,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arreglado {
+            get {
+                object obj = ResourceManager.GetObject("arreglado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap arrow_25864_640 {
             get {
                 object obj = ResourceManager.GetObject("arrow-25864_640", resourceCulture);
@@ -287,6 +297,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap back_158491_640 {
             get {
                 object obj = ResourceManager.GetObject("back-158491_640", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boton_click_aqui {
+            get {
+                object obj = ResourceManager.GetObject("boton click aqui", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -417,6 +437,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap Captura1 {
             get {
                 object obj = ResourceManager.GetObject("Captura1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caricaturas_primavera_pixels_fondos_etiquetado_dibujos_minimalista_109102 {
+            get {
+                object obj = ResourceManager.GetObject("caricaturas-primavera-pixels-fondos-etiquetado-dibujos-minimalista-109102", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -757,6 +787,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap fotografia_instantanea_1101_240 {
             get {
                 object obj = ResourceManager.GetObject("fotografia-instantanea_1101-240", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fotos_infantiles_de_primavera {
+            get {
+                object obj = ResourceManager.GetObject("fotos-infantiles-de-primavera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1117,6 +1157,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap polarodiresultado1ld9 {
             get {
                 object obj = ResourceManager.GetObject("polarodiresultado1ld9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_stop_button_icon_png_9 {
+            get {
+                object obj = ResourceManager.GetObject("red-stop-button-icon-png-9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

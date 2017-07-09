@@ -107,11 +107,11 @@
     <Compile Include="LecionesModoFacil\FrmClasificaciónAlimentos.Designer.cs">
       <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
     </Compile>
-    <Compile Include="LecionesModoFacil\FrmCuerpoHumano2.cs">
+    <Compile Include="LecionesModoFacil\FrmSentidos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LecionesModoFacil\FrmCuerpoHumano2.Designer.cs">
-      <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    <Compile Include="LecionesModoFacil\FrmSentidos.Designer.cs">
+      <DependentUpon>FrmSentidos.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaPrincipal\Inicio.cs">
       <SubType>Form</SubType>
@@ -178,8 +178,8 @@
     <EmbeddedResource Include="LecionesModoFacil\FrmClasificaciónAlimentos.resx">
       <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LecionesModoFacil\FrmCuerpoHumano2.resx">
-      <DependentUpon>FrmCuerpoHumano2.cs</DependentUpon>
+    <EmbeddedResource Include="LecionesModoFacil\FrmSentidos.resx">
+      <DependentUpon>FrmSentidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -613,6 +613,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Imagen-animada-Ojos-111.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotos-infantiles-de-primavera.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton click aqui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-stop-button-icon-png-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caricaturas-primavera-pixels-fondos-etiquetado-dibujos-minimalista-109102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arreglado.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

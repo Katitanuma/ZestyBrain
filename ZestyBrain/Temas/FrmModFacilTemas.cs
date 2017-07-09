@@ -40,23 +40,7 @@ namespace ZestyBrain
             this.Close();
         }
 
-          
-    
-        private void btnBI1_Click(object sender, EventArgs e)
-        {
-            FrmAnimales FA = new FrmAnimales();
-            FA.Show();
-            this.Close();
-        }
-
-        private void btnBI2_Click(object sender, EventArgs e)
-        {
-            FrmClasificaciónAlimentos FCLA = new FrmClasificaciónAlimentos();
-            FCLA.Show();
-            this.Close();
-        }
-
-        
+                  
         private void pnlInicio_MouseHover(object sender, EventArgs e)
         {
             pnlInicio.Size = new Size(62, 62);
@@ -118,6 +102,13 @@ namespace ZestyBrain
         {
             PantallaPrincipal.FrmInicio objInicio = new PantallaPrincipal.FrmInicio();
             objInicio.Show();
+            this.Visible = false;
+        }
+
+        private void lblAnimal_Click(object sender, EventArgs e)
+        {
+            FrmAnimales objAnimales = new FrmAnimales();
+            objAnimales.Show();
             this.Visible = false;
         }
     }
