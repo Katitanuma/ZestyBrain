@@ -151,6 +151,9 @@
   <data name="log" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="reproduccion-animal-2-a-4-638" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reproduccion-animal-2-a-4-638.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ModoAvanzado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ModoAvanzado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -226,6 +229,9 @@
   <data name="techo_yawning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\techo_yawning.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="leche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="los-seres-vivos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\los-seres-vivos2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -240,6 +246,9 @@
   </data>
   <data name="119_example" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\119_example.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="germinacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\germinacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="beach003" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beach003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -279,6 +288,9 @@
   </data>
   <data name="deer4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deer4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="food-1487663_960_720" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\food-1487663_960_720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -574,8 +586,8 @@
   <data name="Button-Previous-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button-Previous-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="leche" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leche.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fecund_inter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fecund_inter.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="opc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opc1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -688,7 +700,7 @@
   <data name="7056f2eebd745b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7056f2eebd745b0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="111-22-HLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\111-22-HLS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

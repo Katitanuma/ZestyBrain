@@ -19,17 +19,17 @@ namespace ZestyBrain
 
         private void pcbSalir_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            this.Visible = false;
         }
 
         private void pcbSalir_MouseHover(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(55, 55);
+            pcbSalir.Size = new Size(45, 45);
         }
 
         private void pcbSalir_MouseLeave(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(50, 50);
+            pcbSalir.Size = new Size(40, 40);
         }
     }
 }

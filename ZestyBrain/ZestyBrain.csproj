@@ -807,6 +807,18 @@
   <ItemGroup>
     <None Include="Resources\paisaje-de-dibujos-animados,-camino,-prado,-sol,-nubes-207394.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reproduccion-animal-2-a-4-638.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fecund_inter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\germinacion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111-22-HLS.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

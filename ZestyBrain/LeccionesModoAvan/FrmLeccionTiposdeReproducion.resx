@@ -117,4 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Al proceso biológico mediante el cual una especie puede crear organismos nuevos se le conoce bajo el nombre de reproducción. 
+Existen dos tipos de reproducción: Sexual y Asexual.
+
+1. Reproducción Asexual: 
+Ésta se asemeja a la división celular directa y puede darse en organismos unicelulares y pluricelulares de cualquier reino,
+aunque es más común en los hongos, los procariotas y los protistas. En el caso de animales y vegetales se da 
+en las escalas taxonómicas de mayor inferioridad. 
+
+Por medio de la reproducción asexual se producen clones de células idénticas en lo genético entre sí y a las maternas. 
+La reproducción asexual se puede dar de tres maneras:
+
+* Por gemación: 
+En esta la célula duplica su acervo cromosomático y encapsula a uno de ellos. 
+Este se recubre por una capa de espora que protege al contenido de la nueva célula. 
+Esta forma de reproducción se da en animales, hongos y plantas.
+
+* Por fragmentación: 
+En esta reproducción se forman cadenas en el ápice de alguna hifa. 
+Estas cadenas lo que contienen son las esporas asexuales. 
+La reproducción por fragmentación se da en animales, hongos y musgos.
+
+* Por rizomas y estolones: 
+Los rizomas y estolones son tallos que generan raíces adventicias, originando nuevas plantas. 
+Esta forma de reproducción se limita a ellas.
+
+2. Reproducción Sexual:
+Esta forma de reproducción es propia de la gran parte de los organismos eucariotas. 
+Para que esta reproducción pueda realizarse, es necesario que haya dos padres y que ambos pertenezcan a la misma especie.
+Se necesita, en la reproducción sexual, que ocurran dos fenómenos, la meiosis por un lado, y la fecundación por otro.
+
+--La meiosis, que es una forma de reproducción celular de la que devienen células hijas cuya carga cromosómica es reducida. 
+En la meiosis se da un total de dos divisiones celulares, las cuales se realizan de manera sucesiva. 
+Puede ser:
+* Cigótica, que se produce una vez que las células fueron unidas por el apareamiento.
+* Somática, que se produce en los órganos sexuales que producen gametos. 
+
+--En la fecundación se conforma, a partir de dos células reproductoras, una sola, doblándose así el número de cromosomas.
+
+
+
+</value>
+  </data>
 </root>
