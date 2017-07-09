@@ -118,7 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Al proceso biológico mediante el cual una especie puede crear organismos nuevos se le conoce bajo el nombre de reproducción. 
+    <value>TIPOS DE REPRODUCCIÓN
+
+Al proceso biológico mediante el cual una especie puede crear organismos nuevos se le conoce bajo el nombre de reproducción. 
 Existen dos tipos de reproducción: Sexual y Asexual.
 
 1. Reproducción Asexual: 
@@ -155,7 +157,6 @@ Puede ser:
 * Somática, que se produce en los órganos sexuales que producen gametos. 
 
 --En la fecundación se conforma, a partir de dos células reproductoras, una sola, doblándose así el número de cromosomas.
-
 
 
 </value>

@@ -25,9 +25,9 @@ namespace ZestyBrain
 
         private void pcbHome_Click(object sender, EventArgs e)
         {
-            FrmModAvanTemas FMAT = new FrmModAvanTemas();
+            PantallaPrincipal.FrmInicio FMAT = new PantallaPrincipal.FrmInicio();
             FMAT.Show();
-            this.Close();
+            this.Visible=false;
         }
 
         private void pcbSalir_MouseHover(object sender, EventArgs e)
@@ -59,8 +59,8 @@ namespace ZestyBrain
 
         private void lblSiguiente_Click(object sender, EventArgs e)
         {
-            //FrmContaminacion objModAvan = new FrmContaminacion();
-            //objModAvan.Show();
+            FrmContaminacionAmbiental objModAvan = new FrmContaminacionAmbiental();
+            objModAvan.Show();
             this.Visible = false;
         }
 

@@ -96,3 +96,5 @@ C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\AxInte
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.ResolveComReference.cache
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
+D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificaciondelosReinos.resources
+D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmContaminacionAmbiental.resources

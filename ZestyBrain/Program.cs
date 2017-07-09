@@ -16,7 +16,7 @@ namespace ZestyBrain
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPruebaAnimales());
+            Application.Run(new FrmClasificaciondelosReinos());
         }
     }
 }

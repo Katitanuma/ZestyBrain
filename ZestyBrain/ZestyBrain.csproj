@@ -77,16 +77,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmClasificaciondelosReinos.cs">
+    <Compile Include="LeccionesModoAvan\FrmClasificaciondelosReinos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmClasificaciondelosReinos.Designer.cs">
+    <Compile Include="LeccionesModoAvan\FrmClasificaciondelosReinos.Designer.cs">
       <DependentUpon>FrmClasificaciondelosReinos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmContaminacionAmbiental.cs">
+    <Compile Include="LeccionesModoAvan\FrmContaminacionAmbiental.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmContaminacionAmbiental.Designer.cs">
+    <Compile Include="LeccionesModoAvan\FrmContaminacionAmbiental.Designer.cs">
       <DependentUpon>FrmContaminacionAmbiental.cs</DependentUpon>
     </Compile>
     <Compile Include="PruebasModoFacil\FrmPruebaAnimales.cs">
@@ -175,10 +175,10 @@
     <Compile Include="PruebasModoFacil\PruebaSentido.Designer.cs">
       <DependentUpon>PruebaSentido.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmClasificaciondelosReinos.resx">
+    <EmbeddedResource Include="LeccionesModoAvan\FrmClasificaciondelosReinos.resx">
       <DependentUpon>FrmClasificaciondelosReinos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmContaminacionAmbiental.resx">
+    <EmbeddedResource Include="LeccionesModoAvan\FrmContaminacionAmbiental.resx">
       <DependentUpon>FrmContaminacionAmbiental.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LeccionesModoAvan\FrmLeccionTiposdeReproducion.resx">
@@ -818,6 +818,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\111-22-HLS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ec398ee5de6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach-cartoon-illustration_1196-552.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_reinos1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\los-5-reinos-2-728.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escena-con-un-lago_1196-292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-beach_1196-472.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\095.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a071f758672af22490e5021f3911c3e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5a01d5d80c74385906011469a48af9ee.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3544f4ea7b02347c1ce654828d4b002c.JPEG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
