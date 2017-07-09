@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LecionesModoFacil\FrmAlimentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LecionesModoFacil\FrmAlimentos.Designer.cs">
+      <DependentUpon>FrmAlimentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLeccionTiposdeReproducion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,12 +106,6 @@
     </Compile>
     <Compile Include="LecionesModoFacil\FrmAnimales.Designer.cs">
       <DependentUpon>FrmAnimales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LecionesModoFacil\FrmClasificaciónAlimentos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LecionesModoFacil\FrmClasificaciónAlimentos.Designer.cs">
-      <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
     </Compile>
     <Compile Include="LecionesModoFacil\FrmSentidos.cs">
       <SubType>Form</SubType>
@@ -169,14 +169,14 @@
     <EmbeddedResource Include="FrmResultado.resx">
       <DependentUpon>FrmResultado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LecionesModoFacil\FrmAlimentos.resx">
+      <DependentUpon>FrmAlimentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaPrincipal\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LecionesModoFacil\FrmAnimales.resx">
       <DependentUpon>FrmAnimales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LecionesModoFacil\FrmClasificaciónAlimentos.resx">
-      <DependentUpon>FrmClasificaciónAlimentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LecionesModoFacil\FrmSentidos.resx">
       <DependentUpon>FrmSentidos.cs</DependentUpon>
@@ -628,6 +628,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\arreglado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60e5b34d4cbec855c8fbba7db38425af.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beach003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\845_example.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\119_example.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ec5e98c7b61e11bbe6b44c843f462f3f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective_button_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_7e80f_7a1d82ad_xxl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-1487663_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27936.imgcache.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caricaturas-primavera-pixels-fondos-etiquetado-dibujos-minimalista-1091021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sentidos arre.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

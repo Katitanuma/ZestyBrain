@@ -128,6 +128,7 @@
             this.lblAlimentos.Size = new System.Drawing.Size(131, 33);
             this.lblAlimentos.TabIndex = 15;
             this.lblAlimentos.Text = "Alimentos";
+            this.lblAlimentos.Click += new System.EventHandler(this.lblAlimentos_Click);
             this.lblAlimentos.MouseLeave += new System.EventHandler(this.lblAlimentos_MouseLeave);
             this.lblAlimentos.MouseHover += new System.EventHandler(this.lblAlimentos_MouseHover);
             // 
@@ -153,6 +154,7 @@
             this.lblSentidos.Size = new System.Drawing.Size(160, 33);
             this.lblSentidos.TabIndex = 16;
             this.lblSentidos.Text = "Los Sentidos";
+            this.lblSentidos.Click += new System.EventHandler(this.lblSentidos_Click);
             this.lblSentidos.MouseLeave += new System.EventHandler(this.lblSentidos_MouseLeave);
             this.lblSentidos.MouseHover += new System.EventHandler(this.lblSentidos_MouseHover);
             // 

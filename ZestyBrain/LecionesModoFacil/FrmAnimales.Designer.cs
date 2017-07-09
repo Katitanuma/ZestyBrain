@@ -29,48 +29,48 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnimales));
-            this.pcbHome = new System.Windows.Forms.PictureBox();
-            this.pcbSalir = new System.Windows.Forms.PictureBox();
+            this.pctHome = new System.Windows.Forms.PictureBox();
+            this.pctSalir = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.wmpAnimales = new AxWMPLib.AxWindowsMediaPlayer();
             this.pnlRegresar = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pnlPrueba = new System.Windows.Forms.Panel();
             this.lblPrueba = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbHome)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbSalir)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctHome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctSalir)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.wmpAnimales)).BeginInit();
             this.pnlPrueba.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pcbHome
+            // pctHome
             // 
-            this.pcbHome.BackColor = System.Drawing.Color.Transparent;
-            this.pcbHome.Image = global::ZestyBrain.Properties.Resources.m_home;
-            this.pcbHome.Location = new System.Drawing.Point(19, 10);
-            this.pcbHome.Name = "pcbHome";
-            this.pcbHome.Size = new System.Drawing.Size(53, 57);
-            this.pcbHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbHome.TabIndex = 13;
-            this.pcbHome.TabStop = false;
-            this.pcbHome.Click += new System.EventHandler(this.pcbHome_Click);
-            this.pcbHome.MouseLeave += new System.EventHandler(this.pcbHome_MouseLeave);
-            this.pcbHome.MouseHover += new System.EventHandler(this.pcbHome_MouseHover);
+            this.pctHome.BackColor = System.Drawing.Color.Transparent;
+            this.pctHome.Image = global::ZestyBrain.Properties.Resources.m_home;
+            this.pctHome.Location = new System.Drawing.Point(19, 10);
+            this.pctHome.Name = "pctHome";
+            this.pctHome.Size = new System.Drawing.Size(53, 57);
+            this.pctHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctHome.TabIndex = 13;
+            this.pctHome.TabStop = false;
+            this.pctHome.Click += new System.EventHandler(this.pcbHome_Click);
+            this.pctHome.MouseLeave += new System.EventHandler(this.pcbHome_MouseLeave);
+            this.pctHome.MouseHover += new System.EventHandler(this.pcbHome_MouseHover);
             // 
-            // pcbSalir
+            // pctSalir
             // 
-            this.pcbSalir.BackColor = System.Drawing.Color.Transparent;
-            this.pcbSalir.Image = global::ZestyBrain.Properties.Resources.button_31222_960_720;
-            this.pcbSalir.Location = new System.Drawing.Point(900, 18);
-            this.pcbSalir.Name = "pcbSalir";
-            this.pcbSalir.Size = new System.Drawing.Size(43, 43);
-            this.pcbSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbSalir.TabIndex = 12;
-            this.pcbSalir.TabStop = false;
-            this.pcbSalir.Click += new System.EventHandler(this.pcbSalir_Click);
-            this.pcbSalir.MouseLeave += new System.EventHandler(this.pcbSalir_MouseLeave);
-            this.pcbSalir.MouseHover += new System.EventHandler(this.pcbSalir_MouseHover);
+            this.pctSalir.BackColor = System.Drawing.Color.Transparent;
+            this.pctSalir.Image = global::ZestyBrain.Properties.Resources.button_31222_960_720;
+            this.pctSalir.Location = new System.Drawing.Point(900, 18);
+            this.pctSalir.Name = "pctSalir";
+            this.pctSalir.Size = new System.Drawing.Size(43, 43);
+            this.pctSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctSalir.TabIndex = 12;
+            this.pctSalir.TabStop = false;
+            this.pctSalir.Click += new System.EventHandler(this.pctSalir_Click);
+            this.pctSalir.MouseLeave += new System.EventHandler(this.pcbSalir_MouseLeave);
+            this.pctSalir.MouseHover += new System.EventHandler(this.pcbSalir_MouseHover);
             // 
             // panel1
             // 
@@ -149,17 +149,17 @@
             this.ClientSize = new System.Drawing.Size(970, 600);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pnlPrueba);
-            this.Controls.Add(this.pcbHome);
+            this.Controls.Add(this.pctHome);
             this.Controls.Add(this.pnlRegresar);
-            this.Controls.Add(this.pcbSalir);
+            this.Controls.Add(this.pctSalir);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmAnimales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAnimales";
-            ((System.ComponentModel.ISupportInitialize)(this.pcbHome)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbSalir)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctSalir)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.wmpAnimales)).EndInit();
             this.pnlPrueba.ResumeLayout(false);
@@ -169,8 +169,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pcbHome;
-        private System.Windows.Forms.PictureBox pcbSalir;
+        private System.Windows.Forms.PictureBox pctHome;
+        private System.Windows.Forms.PictureBox pctSalir;
         private System.Windows.Forms.Panel panel1;
         private AxWMPLib.AxWindowsMediaPlayer wmpAnimales;
         private System.Windows.Forms.Panel pnlRegresar;

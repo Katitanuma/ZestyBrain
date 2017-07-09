@@ -18,20 +18,14 @@ namespace ZestyBrain
             InitializeComponent();
         }
 
-        private void pcbSalir_Click(object sender, EventArgs e)
+         private void pcbSalir_MouseHover(object sender, EventArgs e)
         {
-            this.Close();
-            Application.ExitThread();
-        }
-
-        private void pcbSalir_MouseHover(object sender, EventArgs e)
-        {
-            pcbSalir.Size = new Size(48, 48);
+            pctSalir.Size = new Size(48, 48);
         }
 
         private void pcbSalir_MouseLeave(object sender, EventArgs e)
         {
-            pcbSalir.Size = new Size(43, 43);
+            pctSalir.Size = new Size(43, 43);
         }
 
         private void pcbHome_Click(object sender, EventArgs e)
@@ -43,12 +37,12 @@ namespace ZestyBrain
 
         private void pcbHome_MouseHover(object sender, EventArgs e)
         {
-            pcbHome.Size = new Size(58, 62);
+            pctHome.Size = new Size(58, 62);
         }
 
         private void pcbHome_MouseLeave(object sender, EventArgs e)
         {   
-            pcbHome.Size = new Size(53, 57);
+            pctHome.Size = new Size(53, 57);
         }
              
 
@@ -82,6 +76,12 @@ namespace ZestyBrain
         private void lblPrueba_MouseLeave(object sender, EventArgs e)
         {
             pnlPrueba.Size = new Size(102, 87);
+        }
+
+        private void pctSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.ExitThread();
         }
     }
 }

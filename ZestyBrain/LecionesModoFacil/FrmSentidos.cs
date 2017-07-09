@@ -17,24 +17,70 @@ namespace ZestyBrain
             InitializeComponent();
         }
 
-        private void pcbSalir_Click(object sender, EventArgs e)
+        private void pctSalir_Click(object sender, EventArgs e)
         {
             this.Close();
             Application.ExitThread();
         }
 
-        private void pcbHome_Click(object sender, EventArgs e)
+        private void pctSalir_MouseHover(object sender, EventArgs e)
         {
-            FrmModFacilTemas FMFT = new FrmModFacilTemas();
-            FMFT.Show();
-            this.Close();
+            pctSalir.Size = new Size(47, 47);
         }
 
-        private void pcbPrueba_Click(object sender, EventArgs e)
+        private void pnlRegresar_Click(object sender, EventArgs e)
         {
-            PruebaCuerpoHumano PCH = new PruebaCuerpoHumano();
-            PCH.Show();
-            this.Close();
+            FrmModFacilTemas objModFacil = new FrmModFacilTemas();
+            objModFacil.Show();
+            this.Visible = false;
+        }
+
+        private void pctSalir_MouseLeave(object sender, EventArgs e)
+        {
+            pctSalir.Size = new Size(43, 43);
+        }
+
+        private void pnlRegresar_MouseHover(object sender, EventArgs e)
+        {
+            pnlRegresar.Size = new Size(47, 47);
+        }
+
+        private void pnlRegresar_MouseLeave(object sender, EventArgs e)
+        {
+            pnlRegresar.Size = new Size(43, 43);
+        }
+
+        private void pctHome_MouseHover(object sender, EventArgs e)
+        {
+            pctHome.Size = new Size(58, 62);
+        }
+
+        private void pctHome_MouseLeave(object sender, EventArgs e)
+        {
+            pctHome.Size = new Size(53, 57);
+        }
+
+        private void pctHome_Click(object sender, EventArgs e)
+        {
+            PantallaPrincipal.FrmInicio objInicio = new PantallaPrincipal.FrmInicio();
+            objInicio.Show();
+            this.Visible = false;
+        }
+
+        private void lblPrueba_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblPrueba_MouseHover(object sender, EventArgs e)
+        {
+
+            pnlPrueba.Size = new Size(107, 92);
+        }
+
+        private void lblPrueba_MouseLeave(object sender, EventArgs e)
+        {
+            pnlPrueba.Size = new Size(102, 87);
         }
     }
 }

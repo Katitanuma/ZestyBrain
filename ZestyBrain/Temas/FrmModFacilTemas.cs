@@ -111,5 +111,19 @@ namespace ZestyBrain
             objAnimales.Show();
             this.Visible = false;
         }
+
+        private void lblAlimentos_Click(object sender, EventArgs e)
+        {
+            FrmAlimentos objAlimentos = new FrmAlimentos();
+            objAlimentos.Show();
+            this.Visible = false;
+        }
+
+        private void lblSentidos_Click(object sender, EventArgs e)
+        {
+            FrmCuerpoHumano2 objSentidos = new FrmCuerpoHumano2();
+            objSentidos.Show();
+            this.Visible = false;
+        }
     }
 }

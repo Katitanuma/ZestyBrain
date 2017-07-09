@@ -76,7 +76,6 @@ D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmLeccionTiposd
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmResultado.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPortada.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAnimales.resources
-D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificaciónAlimentos.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmCuerpoHumano2.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PantallaPrincipal.FrmInicio.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModAvanTemas.resources
@@ -90,3 +89,4 @@ D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PruebaCuerpoHuma
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.GenerateResource.Cache
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
+D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAlimentos.resources
