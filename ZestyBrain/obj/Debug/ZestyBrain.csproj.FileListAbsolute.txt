@@ -73,7 +73,6 @@ D:\ProyectosSistemas\ZestyBrain\ZestyBrain\bin\Debug\Interop.WMPLib.dll
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\bin\Debug\AxInterop.WMPLib.dll
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csprojResolveAssemblyReference.cache
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmLeccionTiposdeReproducion.resources
-D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmResultado.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPortada.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAnimales.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmCuerpoHumano2.resources

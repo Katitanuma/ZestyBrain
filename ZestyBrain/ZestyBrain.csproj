@@ -77,16 +77,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmPrueba1.cs">
+    <Compile Include="PruebaModoDificil\FrmPrueba1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrueba1.Designer.cs">
+    <Compile Include="PruebaModoDificil\FrmPrueba1.Designer.cs">
       <DependentUpon>FrmPrueba1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPrueba2.cs">
+    <Compile Include="PruebaModoDificil\FrmPrueba2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrueba2.Designer.cs">
+    <Compile Include="PruebaModoDificil\FrmPrueba2.Designer.cs">
       <DependentUpon>FrmPrueba2.cs</DependentUpon>
     </Compile>
     <Compile Include="LeccionesModoAvan\FrmClasificaciondelosReinos.cs">
@@ -118,12 +118,6 @@
     </Compile>
     <Compile Include="LeccionesModoAvan\FrmLeccionTiposdeReproducion.Designer.cs">
       <DependentUpon>FrmLeccionTiposdeReproducion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PruebaModoDificil\FrmResultado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PruebaModoDificil\FrmResultado.Designer.cs">
-      <DependentUpon>FrmResultado.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaPrincipal\Form1.cs">
       <SubType>Form</SubType>
@@ -187,10 +181,10 @@
     <Compile Include="PruebasModoFacil\PruebaSentido.Designer.cs">
       <DependentUpon>PruebaSentido.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FrmPrueba1.resx">
+    <EmbeddedResource Include="PruebaModoDificil\FrmPrueba1.resx">
       <DependentUpon>FrmPrueba1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPrueba2.resx">
+    <EmbeddedResource Include="PruebaModoDificil\FrmPrueba2.resx">
       <DependentUpon>FrmPrueba2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LeccionesModoAvan\FrmClasificaciondelosReinos.resx">
@@ -204,9 +198,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PruebasModoFacil\FrmPruebaAnimales.resx">
       <DependentUpon>FrmPruebaAnimales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PruebaModoDificil\FrmResultado.resx">
-      <DependentUpon>FrmResultado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LeccionesModoFacil\FrmAlimentos.resx">
       <DependentUpon>FrmAlimentos.cs</DependentUpon>
@@ -876,6 +867,7 @@
   <ItemGroup>
     <None Include="Resources\NIÑOS.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

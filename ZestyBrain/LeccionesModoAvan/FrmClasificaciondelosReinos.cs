@@ -79,7 +79,9 @@ namespace ZestyBrain
 
         private void lblSiguiente_Click(object sender, EventArgs e)
         {
-
+            FrmPrueba1 objPrueba1 = new FrmPrueba1();
+            objPrueba1.Show();
+            this.Visible = false;
         }
 
         private void lblSiguiente_MouseLeave(object sender, EventArgs e)
