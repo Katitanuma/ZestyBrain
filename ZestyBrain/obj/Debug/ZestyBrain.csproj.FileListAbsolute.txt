@@ -99,6 +99,7 @@ D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificacion
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmContaminacionAmbiental.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba1.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba2.resources
+<<<<<<< HEAD
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.manifest
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.application
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe
@@ -127,3 +128,39 @@ C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyB
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.GenerateResource.Cache
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
+=======
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.config
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\Interop.WMPLib.dll
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.ResolveComReference.cache
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe.manifest
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.application
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.exe
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\ZestyBrain.pdb
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\Interop.WMPLib.dll
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba1.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba2.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificaciondelosReinos.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmContaminacionAmbiental.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmLeccionTiposdeReproducion.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPruebaAnimales.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAlimentos.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPortada.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmAnimales.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmCuerpoHumano2.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PantallaPrincipal.FrmInicio.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModAvanTemas.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModFacilTemas.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmModulosdeJuego.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmOpciones.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPruebaClasificacion.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.Properties.Resources.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.PruebaCuerpoHumano.resources
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.exe.manifest
+C:\Users\usuario\Desktop\Juego Zesty Brain\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.application
+>>>>>>> 13fbc453667d338cdd5aeb3e9f4b425caabd5f8c
