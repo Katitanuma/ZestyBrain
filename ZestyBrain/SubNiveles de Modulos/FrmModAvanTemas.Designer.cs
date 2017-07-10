@@ -123,6 +123,7 @@
             this.btnTipoR.Size = new System.Drawing.Size(40, 40);
             this.btnTipoR.TabIndex = 25;
             this.btnTipoR.UseVisualStyleBackColor = false;
+            this.btnTipoR.Click += new System.EventHandler(this.btnTipoR_Click);
             this.btnTipoR.MouseLeave += new System.EventHandler(this.btnTipoR_MouseLeave);
             this.btnTipoR.MouseHover += new System.EventHandler(this.btnTipoR_MouseHover);
             // 
@@ -152,6 +153,7 @@
             this.btnReino.Size = new System.Drawing.Size(40, 40);
             this.btnReino.TabIndex = 28;
             this.btnReino.UseVisualStyleBackColor = false;
+            this.btnReino.Click += new System.EventHandler(this.btnReino_Click);
             this.btnReino.MouseLeave += new System.EventHandler(this.btnReino_MouseLeave);
             this.btnReino.MouseHover += new System.EventHandler(this.btnReino_MouseHover);
             // 
@@ -214,6 +216,7 @@
             this.btnContA.Size = new System.Drawing.Size(40, 40);
             this.btnContA.TabIndex = 28;
             this.btnContA.UseVisualStyleBackColor = false;
+            this.btnContA.Click += new System.EventHandler(this.btnContA_Click);
             this.btnContA.MouseLeave += new System.EventHandler(this.btnContA_MouseLeave);
             this.btnContA.MouseHover += new System.EventHandler(this.btnContA_MouseHover);
             // 

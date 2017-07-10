@@ -98,3 +98,5 @@ C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyB
 C:\Users\Owner User\Desktop\mini proyecto\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.pdb
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmClasificaciondelosReinos.resources
 D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmContaminacionAmbiental.resources
+D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba1.resources
+D:\ProyectosSistemas\ZestyBrain\ZestyBrain\obj\Debug\ZestyBrain.FrmPrueba2.resources

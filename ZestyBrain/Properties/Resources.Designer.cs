@@ -1024,6 +1024,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap eac32c37015465_560658a654030 {
+            get {
+                object obj = ResourceManager.GetObject("eac32c37015465.560658a654030", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ec5e98c7b61e11bbe6b44c843f462f3f {
             get {
                 object obj = ResourceManager.GetObject("ec5e98c7b61e11bbe6b44c843f462f3f", resourceCulture);
@@ -1484,6 +1494,16 @@ namespace ZestyBrain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lake_1440x900 {
+            get {
+                object obj = ResourceManager.GetObject("lake-1440x900", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LANGOSTA {
             get {
                 object obj = ResourceManager.GetObject("LANGOSTA", resourceCulture);
@@ -1677,6 +1697,16 @@ namespace ZestyBrain.Properties {
         internal static System.Drawing.Bitmap nariz {
             get {
                 object obj = ResourceManager.GetObject("nariz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NIÑOS {
+            get {
+                object obj = ResourceManager.GetObject("NIÑOS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

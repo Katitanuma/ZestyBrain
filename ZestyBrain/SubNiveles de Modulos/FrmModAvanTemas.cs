@@ -96,5 +96,26 @@ namespace ZestyBrain
         {
             lblReino.ForeColor = Color.Black;
         }
+
+        private void btnTipoR_Click(object sender, EventArgs e)
+        {
+            FrmLeccionTiposdeReproducion objRepro = new FrmLeccionTiposdeReproducion();
+            objRepro.Show();
+            this.Visible = false;
+        }
+
+        private void btnContA_Click(object sender, EventArgs e)
+        {
+            FrmContaminacionAmbiental objConta = new FrmContaminacionAmbiental();
+            objConta.Show();
+            this.Visible = false;
+        }
+
+        private void btnReino_Click(object sender, EventArgs e)
+        {
+            FrmClasificaciondelosReinos objReino = new FrmClasificaciondelosReinos();
+            objReino.Show();
+            this.Visible = false;
+        }
     }
 }

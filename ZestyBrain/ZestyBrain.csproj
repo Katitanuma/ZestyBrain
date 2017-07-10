@@ -77,6 +77,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmPrueba1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrueba1.Designer.cs">
+      <DependentUpon>FrmPrueba1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrueba2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrueba2.Designer.cs">
+      <DependentUpon>FrmPrueba2.cs</DependentUpon>
+    </Compile>
     <Compile Include="LeccionesModoAvan\FrmClasificaciondelosReinos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +187,12 @@
     <Compile Include="PruebasModoFacil\PruebaSentido.Designer.cs">
       <DependentUpon>PruebaSentido.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmPrueba1.resx">
+      <DependentUpon>FrmPrueba1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrueba2.resx">
+      <DependentUpon>FrmPrueba2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LeccionesModoAvan\FrmClasificaciondelosReinos.resx">
       <DependentUpon>FrmClasificaciondelosReinos.cs</DependentUpon>
     </EmbeddedResource>
@@ -848,6 +866,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\3544f4ea7b02347c1ce654828d4b002c.JPEG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eac32c37015465.560658a654030.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lake-1440x900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIÑOS.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
