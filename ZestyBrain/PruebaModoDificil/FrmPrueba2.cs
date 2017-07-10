@@ -12,6 +12,9 @@ namespace ZestyBrain
 {
     public partial class FrmPrueba2 : Form
     {
+        
+
+        int nota,pr;
         public FrmPrueba2()
         {
             InitializeComponent();
@@ -33,10 +36,7 @@ namespace ZestyBrain
             pctSalir.Size = new Size(47, 47);
         }
 
-        private void lblVerificar_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void lblVerificar_MouseHover(object sender, EventArgs e)
         {
@@ -60,6 +60,44 @@ namespace ZestyBrain
             PantallaPrincipal.FrmInicio objInicio = new PantallaPrincipal.FrmInicio();
             objInicio.Show();
             this.Visible = false;
+        }
+
+        public void Evaluar()
+        {
+            nota = int.Parse(label8.Text);
+            pr = int.Parse(label9.Text);
+            if (rdbGyFR.Checked == true)
+            {
+                nota += 1;
+            }
+            
+            if (rdbPR.Checked == true)
+            {
+                nota += 1;
+            }
+            
+
+            if (rdbPlantasyAlgas.Checked == true)
+            {
+                nota += 1;
+            }
+            
+                        
+        }
+               
+
+        private void lblVerificar_Click(object sender, EventArgs e)
+        {
+            
+
+            Evaluar();
+
+
+            txtPreguntasR.Text = "8";
+            txtRespuestasC.Text = nota.ToString();
+            txtRespustasI.Text = (8 - nota).ToString();
+            txtPuntuacion.Text = (nota * 5)+"/40".ToString();
+
         }
     }
 }

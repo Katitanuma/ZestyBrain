@@ -31,52 +31,52 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pctSalir = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdbRH = new System.Windows.Forms.RadioButton();
+            this.rdbRM = new System.Windows.Forms.RadioButton();
+            this.rdbRP = new System.Windows.Forms.RadioButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.label3 = new System.Windows.Forms.Label();
+            this.rdbRinoceronte = new System.Windows.Forms.RadioButton();
+            this.rdbProtozoos = new System.Windows.Forms.RadioButton();
+            this.rdbAlgas = new System.Windows.Forms.RadioButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.rdbGemacion = new System.Windows.Forms.RadioButton();
+            this.rdbBiparticion = new System.Windows.Forms.RadioButton();
+            this.rdbSexual = new System.Windows.Forms.RadioButton();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.chkComerciales = new System.Windows.Forms.CheckBox();
+            this.chkNocivos = new System.Windows.Forms.CheckBox();
+            this.chkToxico = new System.Windows.Forms.CheckBox();
+            this.chkIndustriales = new System.Windows.Forms.CheckBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.chkMineria = new System.Windows.Forms.CheckBox();
+            this.chkPañales = new System.Windows.Forms.CheckBox();
+            this.chkCombustion = new System.Windows.Forms.CheckBox();
+            this.chkAgroquimico = new System.Windows.Forms.CheckBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.pnlVerificar = new System.Windows.Forms.Panel();
             this.lblVerificar = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pctSalir)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.pnlVerificar.SuspendLayout();
             this.SuspendLayout();
@@ -119,29 +119,6 @@
             this.panel1.Size = new System.Drawing.Size(273, 185);
             this.panel1.TabIndex = 47;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.groupBox2);
-            this.panel2.Location = new System.Drawing.Point(613, 100);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(273, 180);
-            this.panel2.TabIndex = 48;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(28, 61);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(217, 112);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -153,77 +130,64 @@
             this.label1.Text = "¿Cuál es el Reino que esta compuesto por bacterias?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel3
+            // groupBox1
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.groupBox3);
-            this.panel3.Location = new System.Drawing.Point(304, 292);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(415, 147);
-            this.panel3.TabIndex = 49;
+            this.groupBox1.Controls.Add(this.rdbRH);
+            this.groupBox1.Controls.Add(this.rdbRM);
+            this.groupBox1.Controls.Add(this.rdbRP);
+            this.groupBox1.Location = new System.Drawing.Point(28, 61);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(217, 112);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
             // 
-            // panel4
+            // rdbRH
             // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.groupBox4);
-            this.panel4.Location = new System.Drawing.Point(99, 454);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(342, 198);
-            this.panel4.TabIndex = 49;
+            this.rdbRH.AutoSize = true;
+            this.rdbRH.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbRH.Location = new System.Drawing.Point(18, 78);
+            this.rdbRH.Name = "rdbRH";
+            this.rdbRH.Size = new System.Drawing.Size(117, 27);
+            this.rdbRH.TabIndex = 2;
+            this.rdbRH.TabStop = true;
+            this.rdbRH.Text = "Reino Hongo";
+            this.rdbRH.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // rdbRM
             // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.groupBox5);
-            this.panel5.Location = new System.Drawing.Point(555, 457);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(331, 197);
-            this.panel5.TabIndex = 49;
+            this.rdbRM.AutoSize = true;
+            this.rdbRM.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbRM.Location = new System.Drawing.Point(18, 49);
+            this.rdbRM.Name = "rdbRM";
+            this.rdbRM.Size = new System.Drawing.Size(128, 27);
+            this.rdbRM.TabIndex = 1;
+            this.rdbRM.TabStop = true;
+            this.rdbRM.Text = "Reino Mónera";
+            this.rdbRM.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rdbRP
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(19, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(146, 27);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Reino Prototista";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbRP.AutoSize = true;
+            this.rdbRP.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbRP.Location = new System.Drawing.Point(19, 20);
+            this.rdbRP.Name = "rdbRP";
+            this.rdbRP.Size = new System.Drawing.Size(146, 27);
+            this.rdbRP.TabIndex = 0;
+            this.rdbRP.TabStop = true;
+            this.rdbRP.Text = "Reino Prototista";
+            this.rdbRP.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // panel2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(18, 49);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(128, 27);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Reino Mónera";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(18, 78);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(117, 27);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Reino Hongo";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.groupBox2);
+            this.panel2.Location = new System.Drawing.Point(613, 100);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(273, 180);
+            this.panel2.TabIndex = 48;
             // 
             // label2
             // 
@@ -238,62 +202,62 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton7);
-            this.groupBox2.Controls.Add(this.radioButton8);
-            this.groupBox2.Controls.Add(this.radioButton9);
+            this.groupBox2.Controls.Add(this.rdbRinoceronte);
+            this.groupBox2.Controls.Add(this.rdbProtozoos);
+            this.groupBox2.Controls.Add(this.rdbAlgas);
             this.groupBox2.Location = new System.Drawing.Point(26, 63);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(217, 105);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
-            // radioButton7
+            // rdbRinoceronte
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(18, 71);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(115, 27);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Rinoceronte";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.rdbRinoceronte.AutoSize = true;
+            this.rdbRinoceronte.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbRinoceronte.Location = new System.Drawing.Point(18, 71);
+            this.rdbRinoceronte.Name = "rdbRinoceronte";
+            this.rdbRinoceronte.Size = new System.Drawing.Size(115, 27);
+            this.rdbRinoceronte.TabIndex = 2;
+            this.rdbRinoceronte.TabStop = true;
+            this.rdbRinoceronte.Text = "Rinoceronte";
+            this.rdbRinoceronte.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // rdbProtozoos
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(18, 39);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(99, 27);
-            this.radioButton8.TabIndex = 1;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Protozoos";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rdbProtozoos.AutoSize = true;
+            this.rdbProtozoos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbProtozoos.Location = new System.Drawing.Point(18, 39);
+            this.rdbProtozoos.Name = "rdbProtozoos";
+            this.rdbProtozoos.Size = new System.Drawing.Size(99, 27);
+            this.rdbProtozoos.TabIndex = 1;
+            this.rdbProtozoos.TabStop = true;
+            this.rdbProtozoos.Text = "Protozoos";
+            this.rdbProtozoos.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // rdbAlgas
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(19, 10);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(97, 27);
-            this.radioButton9.TabIndex = 0;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Las Algas";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.rdbAlgas.AutoSize = true;
+            this.rdbAlgas.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbAlgas.Location = new System.Drawing.Point(19, 10);
+            this.rdbAlgas.Name = "rdbAlgas";
+            this.rdbAlgas.Size = new System.Drawing.Size(97, 27);
+            this.rdbAlgas.TabIndex = 0;
+            this.rdbAlgas.TabStop = true;
+            this.rdbAlgas.Text = "Las Algas";
+            this.rdbAlgas.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // panel3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(189, 55);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(650, 29);
-            this.label3.TabIndex = 50;
-            this.label3.Text = "Instrucciones: Seleccione la respuesta correcta en cada pregunta";
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.groupBox3);
+            this.panel3.Location = new System.Drawing.Point(304, 292);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(415, 147);
+            this.panel3.TabIndex = 49;
             // 
             // label4
             // 
@@ -309,50 +273,62 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton4);
-            this.groupBox3.Controls.Add(this.radioButton5);
-            this.groupBox3.Controls.Add(this.radioButton6);
+            this.groupBox3.Controls.Add(this.rdbGemacion);
+            this.groupBox3.Controls.Add(this.rdbBiparticion);
+            this.groupBox3.Controls.Add(this.rdbSexual);
             this.groupBox3.Location = new System.Drawing.Point(25, 61);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(364, 66);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             // 
-            // radioButton4
+            // rdbGemacion
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(262, 20);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(95, 27);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Gemación";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdbGemacion.AutoSize = true;
+            this.rdbGemacion.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbGemacion.Location = new System.Drawing.Point(262, 20);
+            this.rdbGemacion.Name = "rdbGemacion";
+            this.rdbGemacion.Size = new System.Drawing.Size(95, 27);
+            this.rdbGemacion.TabIndex = 2;
+            this.rdbGemacion.TabStop = true;
+            this.rdbGemacion.Text = "Gemación";
+            this.rdbGemacion.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rdbBiparticion
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(125, 20);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(109, 27);
-            this.radioButton5.TabIndex = 1;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Bipartición";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rdbBiparticion.AutoSize = true;
+            this.rdbBiparticion.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbBiparticion.Location = new System.Drawing.Point(125, 20);
+            this.rdbBiparticion.Name = "rdbBiparticion";
+            this.rdbBiparticion.Size = new System.Drawing.Size(109, 27);
+            this.rdbBiparticion.TabIndex = 1;
+            this.rdbBiparticion.TabStop = true;
+            this.rdbBiparticion.Text = "Bipartición";
+            this.rdbBiparticion.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // rdbSexual
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(12, 20);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(77, 27);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Sexual";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.rdbSexual.AutoSize = true;
+            this.rdbSexual.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbSexual.Location = new System.Drawing.Point(12, 20);
+            this.rdbSexual.Name = "rdbSexual";
+            this.rdbSexual.Size = new System.Drawing.Size(77, 27);
+            this.rdbSexual.TabIndex = 0;
+            this.rdbSexual.TabStop = true;
+            this.rdbSexual.Text = "Sexual";
+            this.rdbSexual.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.groupBox4);
+            this.panel4.Location = new System.Drawing.Point(99, 454);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(342, 198);
+            this.panel4.TabIndex = 49;
             // 
             // label6
             // 
@@ -368,59 +344,71 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.checkBox2);
-            this.groupBox4.Controls.Add(this.checkBox1);
+            this.groupBox4.Controls.Add(this.chkComerciales);
+            this.groupBox4.Controls.Add(this.chkNocivos);
+            this.groupBox4.Controls.Add(this.chkToxico);
+            this.groupBox4.Controls.Add(this.chkIndustriales);
             this.groupBox4.Location = new System.Drawing.Point(28, 96);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(281, 87);
             this.groupBox4.TabIndex = 8;
             this.groupBox4.TabStop = false;
             // 
-            // checkBox1
+            // chkComerciales
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(22, 13);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(118, 27);
-            this.checkBox1.TabIndex = 9;
-            this.checkBox1.Text = "Industriales";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkComerciales.AutoSize = true;
+            this.chkComerciales.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkComerciales.Location = new System.Drawing.Point(159, 51);
+            this.chkComerciales.Name = "chkComerciales";
+            this.chkComerciales.Size = new System.Drawing.Size(115, 27);
+            this.chkComerciales.TabIndex = 12;
+            this.chkComerciales.Text = "Comerciales";
+            this.chkComerciales.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chkNocivos
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(160, 14);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(85, 27);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "Tóxicos";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkNocivos.AutoSize = true;
+            this.chkNocivos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkNocivos.Location = new System.Drawing.Point(20, 50);
+            this.chkNocivos.Name = "chkNocivos";
+            this.chkNocivos.Size = new System.Drawing.Size(86, 27);
+            this.chkNocivos.TabIndex = 11;
+            this.chkNocivos.Text = "Nocivos";
+            this.chkNocivos.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkToxico
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(20, 50);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(86, 27);
-            this.checkBox3.TabIndex = 11;
-            this.checkBox3.Text = "Nocivos";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkToxico.AutoSize = true;
+            this.chkToxico.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkToxico.Location = new System.Drawing.Point(160, 14);
+            this.chkToxico.Name = "chkToxico";
+            this.chkToxico.Size = new System.Drawing.Size(85, 27);
+            this.chkToxico.TabIndex = 10;
+            this.chkToxico.Text = "Tóxicos";
+            this.chkToxico.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // chkIndustriales
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(159, 51);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(115, 27);
-            this.checkBox4.TabIndex = 12;
-            this.checkBox4.Text = "Comerciales";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkIndustriales.AutoSize = true;
+            this.chkIndustriales.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkIndustriales.Location = new System.Drawing.Point(22, 13);
+            this.chkIndustriales.Name = "chkIndustriales";
+            this.chkIndustriales.Size = new System.Drawing.Size(118, 27);
+            this.chkIndustriales.TabIndex = 9;
+            this.chkIndustriales.Text = "Industriales";
+            this.chkIndustriales.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = global::ZestyBrain.Properties.Resources.temarioavan;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.Controls.Add(this.label7);
+            this.panel5.Controls.Add(this.groupBox5);
+            this.panel5.Location = new System.Drawing.Point(555, 457);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(331, 197);
+            this.panel5.TabIndex = 49;
             // 
             // label7
             // 
@@ -435,59 +423,71 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.checkBox5);
-            this.groupBox5.Controls.Add(this.checkBox6);
-            this.groupBox5.Controls.Add(this.checkBox7);
-            this.groupBox5.Controls.Add(this.checkBox8);
+            this.groupBox5.Controls.Add(this.chkMineria);
+            this.groupBox5.Controls.Add(this.chkPañales);
+            this.groupBox5.Controls.Add(this.chkCombustion);
+            this.groupBox5.Controls.Add(this.chkAgroquimico);
             this.groupBox5.Location = new System.Drawing.Point(22, 74);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(281, 87);
             this.groupBox5.TabIndex = 10;
             this.groupBox5.TabStop = false;
             // 
-            // checkBox5
+            // chkMineria
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(159, 51);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(86, 27);
-            this.checkBox5.TabIndex = 12;
-            this.checkBox5.Text = "Minería";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkMineria.AutoSize = true;
+            this.chkMineria.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkMineria.Location = new System.Drawing.Point(159, 51);
+            this.chkMineria.Name = "chkMineria";
+            this.chkMineria.Size = new System.Drawing.Size(86, 27);
+            this.chkMineria.TabIndex = 12;
+            this.chkMineria.Text = "Minería";
+            this.chkMineria.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // chkPañales
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(20, 50);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(81, 27);
-            this.checkBox6.TabIndex = 11;
-            this.checkBox6.Text = "Pañales";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkPañales.AutoSize = true;
+            this.chkPañales.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkPañales.Location = new System.Drawing.Point(20, 50);
+            this.chkPañales.Name = "chkPañales";
+            this.chkPañales.Size = new System.Drawing.Size(81, 27);
+            this.chkPañales.TabIndex = 11;
+            this.chkPañales.Text = "Pañales";
+            this.chkPañales.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // chkCombustion
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(160, 14);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(111, 27);
-            this.checkBox7.TabIndex = 10;
-            this.checkBox7.Text = "Combustión";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.chkCombustion.AutoSize = true;
+            this.chkCombustion.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCombustion.Location = new System.Drawing.Point(160, 14);
+            this.chkCombustion.Name = "chkCombustion";
+            this.chkCombustion.Size = new System.Drawing.Size(111, 27);
+            this.chkCombustion.TabIndex = 10;
+            this.chkCombustion.Text = "Combustión";
+            this.chkCombustion.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // chkAgroquimico
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(22, 13);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(118, 27);
-            this.checkBox8.TabIndex = 9;
-            this.checkBox8.Text = "Agroquímico";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chkAgroquimico.AutoSize = true;
+            this.chkAgroquimico.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAgroquimico.Location = new System.Drawing.Point(22, 13);
+            this.chkAgroquimico.Name = "chkAgroquimico";
+            this.chkAgroquimico.Size = new System.Drawing.Size(118, 27);
+            this.chkAgroquimico.TabIndex = 9;
+            this.chkAgroquimico.Text = "Agroquímico";
+            this.chkAgroquimico.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(189, 55);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(650, 29);
+            this.label3.TabIndex = 50;
+            this.label3.Text = "Instrucciones: Seleccione la respuesta correcta en cada pregunta";
             // 
             // pnlVerificar
             // 
@@ -555,18 +555,18 @@
             this.Text = "FrmPrueba1";
             ((System.ComponentModel.ISupportInitialize)(this.pctSalir)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.pnlVerificar.ResumeLayout(false);
@@ -582,39 +582,41 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbRH;
+        private System.Windows.Forms.RadioButton rdbRM;
+        private System.Windows.Forms.RadioButton rdbRP;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton rdbRinoceronte;
+        private System.Windows.Forms.RadioButton rdbProtozoos;
+        private System.Windows.Forms.RadioButton rdbAlgas;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton rdbGemacion;
+        private System.Windows.Forms.RadioButton rdbBiparticion;
+        private System.Windows.Forms.RadioButton rdbSexual;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chkComerciales;
+        private System.Windows.Forms.CheckBox chkNocivos;
+        private System.Windows.Forms.CheckBox chkToxico;
+        private System.Windows.Forms.CheckBox chkIndustriales;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox chkMineria;
+        private System.Windows.Forms.CheckBox chkPañales;
+        private System.Windows.Forms.CheckBox chkCombustion;
+        private System.Windows.Forms.CheckBox chkAgroquimico;
         private System.Windows.Forms.Panel pnlVerificar;
         private System.Windows.Forms.Label lblVerificar;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label label9;
     }
 }

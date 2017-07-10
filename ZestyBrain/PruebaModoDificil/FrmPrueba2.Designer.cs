@@ -36,14 +36,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rdbGyFR = new System.Windows.Forms.RadioButton();
+            this.rdbGyF = new System.Windows.Forms.RadioButton();
+            this.rdbMyM = new System.Windows.Forms.RadioButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtRespustasI = new System.Windows.Forms.TextBox();
+            this.txtRespuestasC = new System.Windows.Forms.TextBox();
+            this.txtPuntuacion = new System.Windows.Forms.TextBox();
+            this.txtPreguntasR = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -53,14 +53,17 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.rdbContaminacion = new System.Windows.Forms.RadioButton();
+            this.rdbGyF2 = new System.Windows.Forms.RadioButton();
+            this.rdbPR = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.rdbPlantasyAlgas = new System.Windows.Forms.RadioButton();
+            this.rdbAnimalesyHongos = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.pnlVerificar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctSalir)).BeginInit();
             this.panel1.SuspendLayout();
@@ -154,50 +157,47 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rdbGyFR);
+            this.groupBox1.Controls.Add(this.rdbGyF);
+            this.groupBox1.Controls.Add(this.rdbMyM);
             this.groupBox1.Location = new System.Drawing.Point(14, 61);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(242, 119);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // radioButton3
+            // rdbGyFR
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(7, 80);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(219, 27);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Gemación y Fragmentación";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdbGyFR.AutoSize = true;
+            this.rdbGyFR.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbGyFR.Location = new System.Drawing.Point(7, 80);
+            this.rdbGyFR.Name = "rdbGyFR";
+            this.rdbGyFR.Size = new System.Drawing.Size(219, 27);
+            this.rdbGyFR.TabIndex = 2;
+            this.rdbGyFR.Text = "Gemación y Fragmentación";
+            this.rdbGyFR.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdbGyF
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(7, 47);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(202, 27);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Gemación y Fecundación";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbGyF.AutoSize = true;
+            this.rdbGyF.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbGyF.Location = new System.Drawing.Point(7, 47);
+            this.rdbGyF.Name = "rdbGyF";
+            this.rdbGyF.Size = new System.Drawing.Size(202, 27);
+            this.rdbGyF.TabIndex = 1;
+            this.rdbGyF.Text = "Gemación y Fecundación";
+            this.rdbGyF.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rdbMyM
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(8, 15);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(156, 27);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Mitosis y Meiosis";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbMyM.AutoSize = true;
+            this.rdbMyM.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbMyM.Location = new System.Drawing.Point(8, 15);
+            this.rdbMyM.Name = "rdbMyM";
+            this.rdbMyM.Size = new System.Drawing.Size(156, 27);
+            this.rdbMyM.TabIndex = 0;
+            this.rdbMyM.Text = "Mitosis y Meiosis";
+            this.rdbMyM.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -205,10 +205,10 @@
             this.panel2.BackgroundImage = global::ZestyBrain.Properties.Resources.imagen_prueb;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtRespustasI);
+            this.panel2.Controls.Add(this.txtRespuestasC);
+            this.panel2.Controls.Add(this.txtPuntuacion);
+            this.panel2.Controls.Add(this.txtPreguntasR);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
@@ -218,37 +218,41 @@
             this.panel2.Size = new System.Drawing.Size(425, 223);
             this.panel2.TabIndex = 61;
             // 
-            // textBox4
+            // txtRespustasI
             // 
-            this.textBox4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(287, 110);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 30);
-            this.textBox4.TabIndex = 7;
+            this.txtRespustasI.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRespustasI.Location = new System.Drawing.Point(287, 110);
+            this.txtRespustasI.Name = "txtRespustasI";
+            this.txtRespustasI.Size = new System.Drawing.Size(100, 30);
+            this.txtRespustasI.TabIndex = 7;
+            this.txtRespustasI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // txtRespuestasC
             // 
-            this.textBox3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(287, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 30);
-            this.textBox3.TabIndex = 6;
+            this.txtRespuestasC.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRespuestasC.Location = new System.Drawing.Point(287, 65);
+            this.txtRespuestasC.Name = "txtRespuestasC";
+            this.txtRespuestasC.Size = new System.Drawing.Size(100, 30);
+            this.txtRespuestasC.TabIndex = 6;
+            this.txtRespuestasC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtPuntuacion
             // 
-            this.textBox2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(249, 170);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 30);
-            this.textBox2.TabIndex = 6;
+            this.txtPuntuacion.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPuntuacion.Location = new System.Drawing.Point(249, 170);
+            this.txtPuntuacion.Name = "txtPuntuacion";
+            this.txtPuntuacion.Size = new System.Drawing.Size(100, 30);
+            this.txtPuntuacion.TabIndex = 6;
+            this.txtPuntuacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // txtPreguntasR
             // 
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(287, 22);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 30);
-            this.textBox1.TabIndex = 5;
+            this.txtPreguntasR.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPreguntasR.Location = new System.Drawing.Point(287, 22);
+            this.txtPreguntasR.Name = "txtPreguntasR";
+            this.txtPreguntasR.Size = new System.Drawing.Size(100, 30);
+            this.txtPreguntasR.TabIndex = 5;
+            this.txtPreguntasR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
@@ -293,9 +297,9 @@
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(27, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 27);
+            this.label2.Size = new System.Drawing.Size(187, 27);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Preguntas Realizadas";
+            this.label2.Text = "Total de Preguntas";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pctHome
@@ -347,50 +351,47 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.radioButton7);
-            this.groupBox3.Controls.Add(this.radioButton8);
-            this.groupBox3.Controls.Add(this.radioButton9);
+            this.groupBox3.Controls.Add(this.rdbContaminacion);
+            this.groupBox3.Controls.Add(this.rdbGyF2);
+            this.groupBox3.Controls.Add(this.rdbPR);
             this.groupBox3.Location = new System.Drawing.Point(14, 61);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(242, 119);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             // 
-            // radioButton7
+            // rdbContaminacion
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(7, 80);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(200, 27);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Contaminación de suelos";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.rdbContaminacion.AutoSize = true;
+            this.rdbContaminacion.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbContaminacion.Location = new System.Drawing.Point(7, 80);
+            this.rdbContaminacion.Name = "rdbContaminacion";
+            this.rdbContaminacion.Size = new System.Drawing.Size(200, 27);
+            this.rdbContaminacion.TabIndex = 2;
+            this.rdbContaminacion.Text = "Contaminación de suelos";
+            this.rdbContaminacion.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // rdbGyF2
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(7, 47);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(202, 27);
-            this.radioButton8.TabIndex = 1;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Gemación y Fecundación";
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rdbGyF2.AutoSize = true;
+            this.rdbGyF2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbGyF2.Location = new System.Drawing.Point(7, 47);
+            this.rdbGyF2.Name = "rdbGyF2";
+            this.rdbGyF2.Size = new System.Drawing.Size(202, 27);
+            this.rdbGyF2.TabIndex = 1;
+            this.rdbGyF2.Text = "Gemación y Fecundación";
+            this.rdbGyF2.UseVisualStyleBackColor = true;
             // 
-            // radioButton9
+            // rdbPR
             // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(8, 15);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(196, 27);
-            this.radioButton9.TabIndex = 0;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Protección de Recursos";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.rdbPR.AutoSize = true;
+            this.rdbPR.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPR.Location = new System.Drawing.Point(8, 15);
+            this.rdbPR.Name = "rdbPR";
+            this.rdbPR.Size = new System.Drawing.Size(196, 27);
+            this.rdbPR.TabIndex = 0;
+            this.rdbPR.Text = "Protección de Recursos";
+            this.rdbPR.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -417,37 +418,65 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.radioButton10);
-            this.groupBox4.Controls.Add(this.radioButton11);
+            this.groupBox4.Controls.Add(this.rdbPlantasyAlgas);
+            this.groupBox4.Controls.Add(this.rdbAnimalesyHongos);
             this.groupBox4.Location = new System.Drawing.Point(14, 61);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(242, 119);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             // 
-            // radioButton10
+            // rdbPlantasyAlgas
             // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton10.Location = new System.Drawing.Point(22, 77);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(138, 27);
-            this.radioButton10.TabIndex = 2;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Plantas y Algas";
-            this.radioButton10.UseVisualStyleBackColor = true;
+            this.rdbPlantasyAlgas.AutoSize = true;
+            this.rdbPlantasyAlgas.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbPlantasyAlgas.Location = new System.Drawing.Point(22, 77);
+            this.rdbPlantasyAlgas.Name = "rdbPlantasyAlgas";
+            this.rdbPlantasyAlgas.Size = new System.Drawing.Size(138, 27);
+            this.rdbPlantasyAlgas.TabIndex = 2;
+            this.rdbPlantasyAlgas.Text = "Plantas y Algas";
+            this.rdbPlantasyAlgas.UseVisualStyleBackColor = true;
             // 
-            // radioButton11
+            // rdbAnimalesyHongos
             // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton11.Location = new System.Drawing.Point(22, 40);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(158, 27);
-            this.radioButton11.TabIndex = 1;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Animales y hongos";
-            this.radioButton11.UseVisualStyleBackColor = true;
+            this.rdbAnimalesyHongos.AutoSize = true;
+            this.rdbAnimalesyHongos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbAnimalesyHongos.Location = new System.Drawing.Point(22, 40);
+            this.rdbAnimalesyHongos.Name = "rdbAnimalesyHongos";
+            this.rdbAnimalesyHongos.Size = new System.Drawing.Size(158, 27);
+            this.rdbAnimalesyHongos.TabIndex = 1;
+            this.rdbAnimalesyHongos.Text = "Animales y hongos";
+            this.rdbAnimalesyHongos.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label9.Location = new System.Drawing.Point(12, 23);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(13, 13);
+            this.label9.TabIndex = 65;
+            this.label9.Text = "0";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label8.Location = new System.Drawing.Point(12, 10);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 13);
+            this.label8.TabIndex = 64;
+            this.label8.Text = "0";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Location = new System.Drawing.Point(-4, 10);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(93, 44);
+            this.panel5.TabIndex = 66;
             // 
             // FrmPrueba2
             // 
@@ -456,6 +485,9 @@
             this.BackgroundImage = global::ZestyBrain.Properties.Resources.lake_1440x900;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1000, 703);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pctHome);
@@ -485,6 +517,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -498,15 +531,15 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rdbGyFR;
+        private System.Windows.Forms.RadioButton rdbGyF;
+        private System.Windows.Forms.RadioButton rdbMyM;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRespustasI;
+        private System.Windows.Forms.TextBox txtRespuestasC;
+        private System.Windows.Forms.TextBox txtPuntuacion;
+        private System.Windows.Forms.TextBox txtPreguntasR;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -515,13 +548,16 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton rdbContaminacion;
+        private System.Windows.Forms.RadioButton rdbGyF2;
+        private System.Windows.Forms.RadioButton rdbPR;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton rdbPlantasyAlgas;
+        private System.Windows.Forms.RadioButton rdbAnimalesyHongos;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel5;
     }
 }

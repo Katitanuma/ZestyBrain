@@ -12,6 +12,9 @@ namespace ZestyBrain
 {
     public partial class FrmPrueba1 : Form
     {
+
+        int nota=0,pr=0;
+
         public FrmPrueba1()
         {
             InitializeComponent();
@@ -19,9 +22,15 @@ namespace ZestyBrain
 
         private void lblVerificar_Click(object sender, EventArgs e)
         {
+         
+            Evaluar();
+           
             FrmPrueba2 objPrueba2 = new FrmPrueba2();
             objPrueba2.Show();
-            this.Visible=false;
+            objPrueba2.label8.Text = nota.ToString();
+            objPrueba2.label9.Text = pr.ToString();
+            this.Visible = false;
+
         }
 
         private void lblVerificar_MouseHover(object sender, EventArgs e)
@@ -48,6 +57,42 @@ namespace ZestyBrain
         private void pctSalir_MouseLeave(object sender, EventArgs e)
         {
             pctSalir.Size = new Size(43, 43);
+        }
+
+        public void Evaluar()
+        {
+            if(rdbRM.Checked==true)
+            {
+                nota += 1;
+            }
+            
+
+            if(rdbRinoceronte.Checked==true)
+            {
+                nota += 1;
+            }
+            
+
+            if (rdbSexual.Checked==true)
+            {
+                nota += 1;
+            }
+           
+
+            if (chkIndustriales.Checked==true && chkComerciales.Checked==true)
+            {
+                nota += 1;
+            }
+           
+
+            if (chkPañales.Checked==true)
+            {
+                nota += 1;
+            }
+            
+           
+        
+        
         }
     }
 }
