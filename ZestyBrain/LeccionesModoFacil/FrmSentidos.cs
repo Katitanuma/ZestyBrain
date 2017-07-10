@@ -69,7 +69,7 @@ namespace ZestyBrain
 
         private void lblPrueba_Click(object sender, EventArgs e)
         {
-            FrmCuerpoHumano2 objPruebaSentido = new FrmCuerpoHumano2();
+           PruebaCuerpoHumano objPruebaSentido = new PruebaCuerpoHumano();
             objPruebaSentido.Show();
             this.Visible = false;
         }

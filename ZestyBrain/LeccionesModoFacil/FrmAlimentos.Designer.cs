@@ -79,9 +79,9 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(373, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 41);
+            this.label4.Size = new System.Drawing.Size(224, 41);
             this.label4.TabIndex = 38;
-            this.label4.Text = "Los Animales";
+            this.label4.Text = "Los Alimentos";
             // 
             // pctHome
             // 
