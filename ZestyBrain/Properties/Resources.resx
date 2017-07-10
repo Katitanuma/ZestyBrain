@@ -742,4 +742,28 @@
   <data name="NIÑOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NIÑOS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="caballo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caballo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cerdo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerdo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gallina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gallina.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Leopardo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leopardo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oveja1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oveja.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pato1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="perro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

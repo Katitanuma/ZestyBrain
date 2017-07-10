@@ -123,6 +123,7 @@
             this.pnlVerificar.Name = "pnlVerificar";
             this.pnlVerificar.Size = new System.Drawing.Size(165, 52);
             this.pnlVerificar.TabIndex = 22;
+            this.pnlVerificar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlVerificar_Paint);
             // 
             // lblVerificar
             // 
@@ -165,6 +166,7 @@
             this.pct8.Size = new System.Drawing.Size(93, 111);
             this.pct8.TabIndex = 7;
             this.pct8.TabStop = false;
+            this.pct8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct8_MouseDown);
             // 
             // pct7
             // 
@@ -176,6 +178,7 @@
             this.pct7.Size = new System.Drawing.Size(93, 111);
             this.pct7.TabIndex = 6;
             this.pct7.TabStop = false;
+            this.pct7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct7_MouseDown);
             // 
             // pct6
             // 
@@ -187,6 +190,7 @@
             this.pct6.Size = new System.Drawing.Size(93, 111);
             this.pct6.TabIndex = 5;
             this.pct6.TabStop = false;
+            this.pct6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct6_MouseDown);
             // 
             // pct5
             // 
@@ -198,6 +202,7 @@
             this.pct5.Size = new System.Drawing.Size(93, 111);
             this.pct5.TabIndex = 4;
             this.pct5.TabStop = false;
+            this.pct5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct5_MouseDown);
             // 
             // pct4
             // 
@@ -209,6 +214,7 @@
             this.pct4.Size = new System.Drawing.Size(93, 111);
             this.pct4.TabIndex = 3;
             this.pct4.TabStop = false;
+            this.pct4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct4_MouseDown);
             // 
             // pct3
             // 
@@ -220,6 +226,8 @@
             this.pct3.Size = new System.Drawing.Size(93, 111);
             this.pct3.TabIndex = 2;
             this.pct3.TabStop = false;
+            this.pct3.Click += new System.EventHandler(this.pct3_Click);
+            this.pct3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct3_MouseDown);
             // 
             // pct2
             // 
@@ -231,6 +239,7 @@
             this.pct2.Size = new System.Drawing.Size(93, 111);
             this.pct2.TabIndex = 1;
             this.pct2.TabStop = false;
+            this.pct2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct2_MouseDown);
             // 
             // pct1
             // 
@@ -242,6 +251,7 @@
             this.pct1.Size = new System.Drawing.Size(93, 111);
             this.pct1.TabIndex = 0;
             this.pct1.TabStop = false;
+            this.pct1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pct1_MouseDown);
             // 
             // pnlAnimal
             // 
@@ -282,7 +292,6 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackgroundImage = global::ZestyBrain.Properties.Resources.errorbutton;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Location = new System.Drawing.Point(154, 292);
             this.pictureBox11.Name = "pictureBox11";
@@ -301,7 +310,6 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackgroundImage = global::ZestyBrain.Properties.Resources.yes_check_mark_png_21;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Location = new System.Drawing.Point(154, 163);
             this.pictureBox9.Name = "pictureBox9";
@@ -319,6 +327,8 @@
             this.pictureBox4.Size = new System.Drawing.Size(93, 111);
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox4_DragDrop);
+            this.pictureBox4.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox4_DragEnter);
             // 
             // pictureBox3
             // 
@@ -330,6 +340,8 @@
             this.pictureBox3.Size = new System.Drawing.Size(93, 111);
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox3_DragDrop);
+            this.pictureBox3.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox3_DragEnter);
             // 
             // pictureBox1
             // 
@@ -341,6 +353,9 @@
             this.pictureBox1.Size = new System.Drawing.Size(93, 111);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox1_DragDrop);
+            this.pictureBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox1_DragEnter);
             // 
             // pictureBox2
             // 
@@ -352,6 +367,8 @@
             this.pictureBox2.Size = new System.Drawing.Size(93, 111);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox2_DragDrop);
+            this.pictureBox2.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox2_DragEnter);
             // 
             // label3
             // 
@@ -411,6 +428,8 @@
             this.pictureBox5.Size = new System.Drawing.Size(93, 111);
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox5_DragDrop);
+            this.pictureBox5.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox5_DragEnter);
             // 
             // pictureBox14
             // 
@@ -460,6 +479,8 @@
             this.pictureBox6.Size = new System.Drawing.Size(93, 111);
             this.pictureBox6.TabIndex = 8;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox6_DragDrop);
+            this.pictureBox6.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox6_DragEnter);
             // 
             // pictureBox7
             // 
@@ -471,6 +492,8 @@
             this.pictureBox7.Size = new System.Drawing.Size(93, 111);
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox7_DragDrop);
+            this.pictureBox7.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox7_DragEnter);
             // 
             // pictureBox8
             // 
@@ -482,6 +505,8 @@
             this.pictureBox8.Size = new System.Drawing.Size(93, 111);
             this.pictureBox8.TabIndex = 6;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.DragDrop += new System.Windows.Forms.DragEventHandler(this.pictureBox8_DragDrop);
+            this.pictureBox8.DragEnter += new System.Windows.Forms.DragEventHandler(this.pictureBox8_DragEnter);
             // 
             // pctHome
             // 

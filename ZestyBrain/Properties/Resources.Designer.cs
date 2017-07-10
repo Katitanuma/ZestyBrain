@@ -762,6 +762,15 @@ namespace ZestyBrain.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream caballo1 {
+            get {
+                return ResourceManager.GetStream("caballo1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Captura {
@@ -838,6 +847,15 @@ namespace ZestyBrain.Properties {
             get {
                 object obj = ResourceManager.GetObject("cartoon_gorilla", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream cerdo {
+            get {
+                return ResourceManager.GetStream("cerdo", resourceCulture);
             }
         }
         
@@ -1312,6 +1330,15 @@ namespace ZestyBrain.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gallina1 {
+            get {
+                return ResourceManager.GetStream("gallina1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap gear_47203_960_720 {
@@ -1528,6 +1555,15 @@ namespace ZestyBrain.Properties {
             get {
                 object obj = ResourceManager.GetObject("leche", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Leopardo {
+            get {
+                return ResourceManager.GetStream("Leopardo", resourceCulture);
             }
         }
         
@@ -1782,6 +1818,15 @@ namespace ZestyBrain.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream oveja1 {
+            get {
+                return ResourceManager.GetStream("oveja1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap paisaje_de_dibujos_animados__camino__prado__sol__nubes_207394 {
@@ -1802,6 +1847,15 @@ namespace ZestyBrain.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pato1 {
+            get {
+                return ResourceManager.GetStream("pato1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap paycru611061 {
@@ -1818,6 +1872,15 @@ namespace ZestyBrain.Properties {
             get {
                 object obj = ResourceManager.GetObject("perro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream perro1 {
+            get {
+                return ResourceManager.GetStream("perro1", resourceCulture);
             }
         }
         
@@ -1868,6 +1931,15 @@ namespace ZestyBrain.Properties {
             get {
                 object obj = ResourceManager.GetObject("polarodiresultado1ld9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream rana {
+            get {
+                return ResourceManager.GetStream("rana", resourceCulture);
             }
         }
         
